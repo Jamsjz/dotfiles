@@ -14,3 +14,11 @@ stow */
 
 
 You are good to go
+
+# Hyprland
+
+![hyprland](hyprland.png)
+
+# Neovim
+
+![nvim](nvim.png)
