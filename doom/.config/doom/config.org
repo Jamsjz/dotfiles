@@ -1,0 +1,236 @@
+#+TITLE: Emacs Config
+#+AUTHOR: Jamsjz
+#+PROPERTY: header-args :tangle config.el
+#+auto_tangel: t
+#+STARTUP:  showeverything
+
+
+* TABLE OF CONTENTS :toc:
+- [[#about-this-config][ABOUT THIS CONFIG]]
+- [[#ui][UI]]
+  - [[#themes][Themes]]
+  - [[#line-editing][LINE EDITING]]
+  - [[#model-line][Model-line]]
+- [[#directories][DIRECTORIES]]
+- [[#keymap][KEYMAP]]
+  - [[#sane-exec][Sane exec]]
+  - [[#company-auto-complete][Company auto complete]]
+  - [[#which-key-delay][Which KEY delay]]
+  - [[#org-mode-key][Org mode KEY]]
+  - [[#neotree-key][Neotree KEY]]
+  - [[#vterm-key][VTerm Key]]
+- [[#org-mode][ORG MODE]]
+- [[#load-and-requires][LOAD AND REQUIRES]]
+  - [[#debug][Debug]]
+- [[#python][PYTHON]]
+  - [[#python-auto-completion][Python auto completion]]
+- [[#khoj][KHOJ]]
+
+* ABOUT THIS CONFIG
+Emacs is a powerful text editor that can do
+anything. Literally anything!!
+
+This config is a kick starter for some sane
+config for migrating from [[github:lazyvim/lazyvim][lazyvim]] of my
+config in [[github:jamsjz/nvim][lazyvim]].
+
+* UI
+** Themes
+Gruvbox is default with hard contrast.
+>>> Needs package gruvbox
+>>> Needs package catppuccin
+
+#+begin_src elisp
+;; (setq doom-theme 'catppuccin)
+(setq doom-theme 'doom-gruvbox)
+(setq doom-gruvbox-contrast 'hard)
+#+end_src
+** LINE EDITING
+The line number are relative. One could cycle
+through the states:
+1. Relative line numbers
+2. Line numbers
+3. No line number
+
+To cycle use <leader>tl
+
+#+begin_src elisp
+(setq display-line-numbers-type 'relative)
+#+end_src
+
+This has the function to replicate the move line like in vim
+== But I can't get it to work with block or visual selection. ==
+
+
+#+begin_src elisp
+(defun move-line-up ()
+  (interactive)
+  (transpose-lines 1)
+  (forward-line -2)
+  (indent-according-to-mode))
+
+(defun move-line-down ()
+  (interactive)
+  (forward-line 1)
+  (transpose-lines 1)
+  (forward-line -1)
+  (indent-according-to-mode))
+
+(map! :n "M-j" #'move-line-down
+      :n "M-k" #'move-line-up)
+#+end_src
+
+Beacon mode to flash the position of the cursor.
+Need package beacon
+#+begin_src elisp
+(beacon-mode 1)
+#+end_src
+
+** Model-line
+Remove file size and column number in model-line.
+#+begin_src elisp
+(remove-hook 'doom-modeline-mode-hook #'size-indication-mode) ; removes filesize from modeline
+(remove-hook 'doom-modeline-mode-hook #'column-number-mode)   ; removes cursor column in modeline
+#+end_src
+
+* DIRECTORIES
+These are the default directories packages will look
+
+#+begin_src elisp
+(setq org-directory "~/org/")
+(setq projectile-project-search-path '"~/prj/")
+#+end_src
+
+* KEYMAP
+Using the map! macro in emacs.
+
+** Sane exec
+This replaces ":" with ";" and,
+":" with "M-x"
+#+begin_src elisp
+(map! :n ";" 'evil-ex)
+#+end_src
+
+** Company auto complete
+Changes default behavior of company to :
+1. Press arrow instead of tab to change the suggestion
+2. If there are multiple suggestion then it will change
+   suggestion on tab and apply suggestion on RET
+3. If there is only one suggestion, then it will auto complete
+   directly without having to press RET
+
+   #+begin_src elisp
+(map!
+ :map company-active-map :desc "<tab>" :nv "<tab>" #'company-complete-selection)
+(map! :map lsp-mode-map :desc "<tab>" :nv "<tab>" #'company-indent-or-complete-common)
+   #+end_src
+
+** Which KEY delay
+This changes the delay of which key to show up almost instantly
+for beginners willing to learn doom emacs.
+You can disable it just comment out this block
+
+#+begin_src elisp
+(setq which-key-show-early-on-C-h t)
+(setq which-key-idle-delay 0.1)
+(setq which-key-idle-secondary-delay 0.1)
+#+end_src
+
+** Org mode KEY
+Standard moving list numbers colums and other elements
+down and up using j and k instead of up and down arrows.
+
+#+begin_src elisp
+(map! :map org-mode-map
+      :n "M-j" #'org-metadown
+      :n "M-k" #'org-metaup)
+#+end_src
+
+** Neotree KEY
+Toggle neotree using <leader> e like in lazyvim.
+#+begin_src elisp
+(map! :leader "e" 'neotree-toggle)
+#+end_src
+
+** VTerm Key
+Ensure that all existing bindings for C-/ are removed, you can unbind it at a global level:
+Then bin "C-/" to toggle vterm like in lazyvim
+
+#+begin_src elisp
+(map! "C-/" nil)
+(map! :n "C-/" #'+vterm/toggle)
+(map! :i "C-/" #'+vterm/toggle)
+
+#+end_src
+
+* ORG MODE
+Tasks setting up
+
+#+begin_src elisp
+(setq org-todo-keywords '((sequence "TODO(t}" "INPROGRESS(i)" "WAITING(w)" "DONE(d)" "CANCELLED(c)"))
+      org-todo-keyword-faces
+      '(("TODO" :foreground "#7c7c75" :weight normal :underline t)
+        ("WAITING" :foreground "#0098dd" :weight normal :underline t)
+        ("INPROGRESS" :foreground "#50a14f" :weight normal :underline t)
+        ("DONE" :foreground "#50a14f" :weight normal :underline t)
+        ("CANCELLED" :foreground "#ff6480" :weight normal :underline t))
+      org-agenda-skip-scheduled-if-done t)
+#+end_src
+* LOAD AND REQUIRES
+** Debug
+This enables debug and common debug keybindings.
+This is not similar to lazyvim but quite familiar.
+#+begin_src elisp
+(after! dap-mode
+  (require 'dap-cpptools)  ; Provides C/C++ debugging with DAP
+  )
+(map! :map dap-mode-map
+      :leader
+      :prefix ("d" . "dap")
+      ;; basics
+      :desc "dap next"          "n" #'dap-next
+      :desc "dap step in"       "i" #'dap-step-in
+      :desc "dap step out"      "o" #'dap-step-out
+      :desc "dap continue"      "c" #'dap-continue
+      :desc "dap hydra"         "h" #'dap-hydra
+      :desc "dap debug restart" "r" #'dap-debug-restart
+      :desc "dap debug"         "s" #'dap-debug
+
+      ;; debug
+      :prefix ("dd" . "Debug")
+      :desc "dap debug recent"  "r" #'dap-debug-recent
+      :desc "dap debug last"    "l" #'dap-debug-last
+
+      ;; eval
+      :prefix ("de" . "Eval")
+      :desc "eval"                "e" #'dap-eval
+      :desc "eval region"         "r" #'dap-eval-region
+      :desc "eval thing at point" "s" #'dap-eval-thing-at-point
+      :desc "add expression"      "a" #'dap-ui-expressions-add
+      :desc "remove expression"   "d" #'dap-ui-expressions-remove
+
+      :prefix ("db" . "Breakpoint")
+      :desc "dap breakpoint toggle"      "b" #'dap-breakpoint-toggle
+      :desc "dap breakpoint condition"   "c" #'dap-breakpoint-condition
+      :desc "dap breakpoint hit count"   "h" #'dap-breakpoint-hit-condition
+      :desc "dap breakpoint log message" "l" #'dap-breakpoint-log-message)
+#+end_src
+* PYTHON
+** Python auto completion
+This turns on the python-shell-completion
+1. Enable native completion for Python
+2. Optional: Ignore version checks for native completion
+3. Additional Python configuration for Doom Emacs
+   Force-enable native completion if needed
+
+#+begin_src elisp
+(after! python
+  (run-python)
+  (setq python-shell-completion-native-enable t)) ;; Enable native completion
+#+end_src
+* KHOJ
+Api Key for khoj:
+
+#+begin_src elisp
+(setq khoj-api-key "kk-H8cGgTJYdw825s-0B-MdMQXn98ZHRQ1Z3fZwG8eqWxI")
+#+end_src
