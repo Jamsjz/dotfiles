@@ -22,3 +22,5 @@ You are good to go
 # Neovim
 
 ![nvim](nvim.png)
+
+Huge credit to [Prashant](https://github.com/prasanthrangan/)
