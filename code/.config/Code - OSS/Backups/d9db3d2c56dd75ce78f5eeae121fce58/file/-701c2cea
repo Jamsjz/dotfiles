@@ -1,0 +1,28 @@
+file:///home/j/dsc/learnml/numpy/numpy_intro.ipynb {"mtime":1715701846268,"ctime":1715701846268,"size":0,"etag":"3cdb84brr0","orphaned":false,"typeId":"notebook/jupyter-notebook"}
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "!echo hello"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "language_info": {
+   "name": "python"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}

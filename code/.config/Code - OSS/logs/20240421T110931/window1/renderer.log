@@ -1,0 +1,2 @@
+2024-04-21 11:09:31.493 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/j/--ozone-platform-hint=wayland","scheme":"file"},"type":1,"exists":true,"options":{}},{"fileUri":{"$mid":1,"path":"/home/j/--disable-gpu","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2024-04-21 11:09:31.815 [info] Started local extension host with pid 26229.

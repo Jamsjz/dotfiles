@@ -1,0 +1,8 @@
+[user]
+	name = Jamsjz
+	email = gj984233@gmail.com
+[credential]
+	credentialStore = cache
+	helper = store
+[init]
+	defaultBranch = main

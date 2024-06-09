@@ -1,0 +1,81 @@
+2024-05-15 15:25:50.615 [INFO]: No proxy settings found
+2024-05-15 15:25:52.028 [INFO]: Creating manager directory: /tmp/4667e909-9e29-4aae-80b0-bc5ec2b34114/codeium/manager
+2024-05-15 15:25:52.203 [INFO]: Using cached LS with valid crc32: /home/j/.vscode-oss/extensions/codeium.codeium-1.8.36-universal/dist/6b19fd56d85774d39e487f63cbc17e220b37637d/language_server_linux_x64
+2024-05-15 15:25:52.207 [INFO]: Language server started
+2024-05-15 15:25:52.285 [INFO]: [Language Server (stderr)]:
+I0515 15:25:52.284591 30251 main.go:554] Starting language server manager with pid 30251
+I0515 15:25:52.284658 30251 main.go:110] Manager acquired its lock file /tmp/4667e909-9e29-4aae-80b0-bc5ec2b34114/codeium/manager/locks/manager.lock
+2024-05-15 15:25:52.286 [INFO]: [Language Server (stderr)]:
+I0515 15:25:52.285216 30251 main.go:248] Waiting for random port file in /tmp/4667e909-9e29-4aae-80b0-bc5ec2b34114/codeium/manager/child_random_port_1715766052284821351_1563832790524510054 to be created
+2024-05-15 15:25:52.364 [INFO]: [Language Server (stderr)]:
+I0515 15:25:52.363504 30266 main.go:548] Starting language server process with pid 30266
+I0515 15:25:52.363543 30266 server.go:154] Language server will attempt to listen on host 127.0.0.1
+I0515 15:25:52.363622 30266 server.go:161] Language server listening on random port at 40733
+I0515 15:25:52.363651 30266 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0515 15:25:52.363665 30266 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0515 15:25:52.363680 30266 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-05-15 15:25:53.351 [INFO]: [Language Server (stderr)]:
+I0515 15:25:53.348076 30266 unleash.go:90] Initializing Unleash
+2024-05-15 15:25:54.540 [INFO]: [Language Server (stderr)]:
+I0515 15:25:54.539054 30266 unleash.go:110] Successfully initialized Unleash
+2024-05-15 15:25:54.547 [INFO]: [Language Server (stderr)]:
+E0515 15:25:54.546993 30266 client_manager.go:265] Metadata is nil when trying to refresh user JWT
+I0515 15:25:54.547149 30266 server.go:353] Successfully created API server client
+2024-05-15 15:25:54.570 [INFO]: [Language Server (stderr)]:
+I0515 15:25:54.569414 30266 server.go:362] Successfully initialized tokenizer
+I0515 15:25:54.569675 30266 server.go:456] Local search is enabled, will index local files.
+I0515 15:25:54.569686 30266 server.go:460] Using 3 indexer workers
+2024-05-15 15:25:54.578 [INFO]: [Language Server (stderr)]:
+I0515 15:25:54.577941 30266 search_provider.go:164] Using database at /home/j/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-05-15 15:25:54.579 [INFO]: [Language Server (stderr)]:
+I0515 15:25:54.579239 30266 search_provider.go:176] Successfully created embedding search database
+2024-05-15 15:25:54.579 [INFO]: [Language Server (stderr)]:
+I0515 15:25:54.579469 30266 search_provider.go:198] Successfully created and started indexer
+I0515 15:25:54.579496 30266 search_provider.go:224] Successfully created embedding search provider
+I0515 15:25:54.579502 30266 server.go:494] Successfully created exact search provider
+2024-05-15 15:25:54.583 [INFO]: [Language Server (stderr)]:
+I0515 15:25:54.582781 30266 server.go:522] Successfully created completion provider
+I0515 15:25:54.582826 30266 server.go:570] Child process attempting to acquire lock file /tmp/4667e909-9e29-4aae-80b0-bc5ec2b34114/codeium/manager/locks/child_lock_1715766052284839165_7015697712012533691
+I0515 15:25:54.582866 30266 server.go:578] Child process acquired lock file /tmp/4667e909-9e29-4aae-80b0-bc5ec2b34114/codeium/manager/locks/child_lock_1715766052284839165_7015697712012533691
+2024-05-15 15:25:54.588 [INFO]: [Language Server (stderr)]:
+I0515 15:25:54.587586 30266 server.go:181] LSP listening on random port at 40737
+2024-05-15 15:25:54.588 [INFO]: [Language Server (stderr)]:
+I0515 15:25:54.588004 30266 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:40939
+2024-05-15 15:25:54.595 [INFO]: [Language Server (stdout)]:
+40737
+2024-05-15 15:25:54.595 [INFO]: [Language Server (stderr)]:
+I0515 15:25:54.595241 30251 main.go:284] Language server manager found random server port 40733
+I0515 15:25:54.595268 30251 main.go:285] Language server manager found random lsp port 40737
+I0515 15:25:54.595280 30251 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:40733
+2024-05-15 15:25:54.613 [INFO]: [Language Server (stderr)]:
+I0515 15:25:54.613145 30251 main.go:163] Fixing language server port at 40733
+I0515 15:25:54.613162 30251 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:40733
+2024-05-15 15:25:54.625 [INFO]: Found language server running on port 40733
+2024-05-15 15:25:54.633 [INFO]: Downloaded binary: /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-05-15 15:25:54.640 [INFO]: [Language Server (stderr)]:
+I0515 15:25:54.639582 30266 rpcs_miscellaneous.go:118] Ripgrep available at /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-05-15 15:25:55.036 [INFO]: [Language Server (stderr)]:
+I0515 15:25:55.032136 30266 rpcs_miscellaneous.go:312] University version is up to date.
+2024-05-15 15:26:08.838 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:08.952 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:09.039 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:09.276 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:09.378 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:09.527 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:09.692 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:09.752 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:10.277 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:10.337 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:10.461 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:10.631 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:10.777 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:10.852 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:10.906 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:11.058 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:11.152 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:11.749 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:11.881 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:12.185 [INFO]: Codeium is not enabled for the current document.
+2024-05-15 15:26:53.906 [INFO]: Disposing language server process
+2024-05-15 15:26:53.906 [INFO]: Deleting manager directory: /tmp/4667e909-9e29-4aae-80b0-bc5ec2b34114/codeium/manager
+2024-05-15 15:26:53.907 [INFO]: Successfully disposed language server

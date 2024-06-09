@@ -1,0 +1,34 @@
+2024-05-12 09:36:02.863 [info] Extension host with pid 686201 started
+2024-05-12 09:36:02.901 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-05-12 09:36:02.958 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-05-12 09:36:02.966 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-05-12 09:36:03.048 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-05-12 09:36:03.126 [info] Eager extensions activated
+2024-05-12 09:36:03.146 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-05-12 09:36:03.150 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-05-12 09:39:14.944 [info] ExtensionService#_doActivateExtension mlplatform.ml-kernel, startup: false, activationEvent: '*'
+2024-05-12 09:39:15.005 [error] TypeError: Cannot read properties of undefined (reading 'webview')
+	at a.value (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:144040)
+	at o.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at t.<anonymous> (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:123272)
+	at /home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:120148
+	at Object.next (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:120253)
+	at a (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:118990)
+2024-05-12 09:39:15.007 [error] TypeError: Cannot read properties of undefined (reading 'webview')
+	at a.value (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:144040)
+	at o.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:660)
+	at o.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:877)
+	at t.<anonymous> (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:123272)
+	at /home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:120148
+	at Object.next (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:120253)
+	at a (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:118990)
+2024-05-12 09:41:46.488 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-05-12 09:42:19.908 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onCommand:markdown.showPreview'
+2024-05-12 09:42:20.372 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-05-12 09:42:20.416 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-05-12 09:42:41.993 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-05-12 09:43:39.853 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-05-12 09:43:39.894 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-05-12 09:44:28.360 [info] Extension host terminating: renderer closed the MessagePort
+2024-05-12 09:44:28.379 [info] Extension host with pid 686201 exiting with code 0

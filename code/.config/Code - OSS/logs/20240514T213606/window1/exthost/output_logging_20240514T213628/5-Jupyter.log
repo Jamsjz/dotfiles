@@ -1,0 +1,146 @@
+Code - OSS (1.90.0, undefined, desktop)
+Jupyter Extension Version: 2024.3.1.
+Python Extension Version: 2024.4.1.
+Pylance Extension not installed.
+Platform: linux (x64).
+Workspace folder ~/dsc/learnml, Home = /home/j
+21:36:32.941 [info] Telemetry level is off
+21:36:32.941 [info] Experiments are disabled, only manually opted experiments are active.
+21:36:33.005 [error] sendStartupTelemetry() failed. [Error: Extension 'ms-toolsai.<username>upyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.<username>son#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.<username>upyter
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.<username>s:141:51558)
+	at Ob<username>ect.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.<username>s:163:46251)
+	at new Gf (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:412:14723)
+	at cW (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19484)
+	at GZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19433)
+	at ZZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:20945)
+	at uee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24128)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24370
+	at pee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24284)
+	at dee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24345)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23553
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23482
+	at Array.map (<anonymous>)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23447
+	at HZ.r.reduce.constructorIn<username>ections (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19029)
+	at Array.reduce (<anonymous>)
+	at HZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19002)
+	at GZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19379)
+	at ZZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:20945)
+	at uee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24128)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24370
+	at pee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24284)
+	at dee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24345)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23553
+	at vee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:25620)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55705
+	at r._get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55052)
+	at r._getButThrowIfAsync (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55112)
+	at r.get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:50706)
+	at Pe.get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:80:3503)
+	at FIe (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:474:1873)]
+21:36:33.008 [error] extension activation failed [Error: Extension 'ms-toolsai.<username>upyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.<username>son#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.<username>upyter
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.<username>s:141:51558)
+	at Ob<username>ect.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.<username>s:163:46251)
+	at new Gf (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:412:14723)
+	at cW (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19484)
+	at GZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19433)
+	at ZZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:20945)
+	at uee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24128)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24370
+	at pee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24284)
+	at dee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24345)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23553
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23482
+	at Array.map (<anonymous>)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23447
+	at HZ.r.reduce.constructorIn<username>ections (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19029)
+	at Array.reduce (<anonymous>)
+	at HZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19002)
+	at GZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19379)
+	at ZZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:20945)
+	at uee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24128)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24370
+	at pee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24284)
+	at dee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24345)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23553
+	at vee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:25620)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55705
+	at r._get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55052)
+	at r._getButThrowIfAsync (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55112)
+	at r.get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:50706)
+	at Pe.get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:80:3503)
+	at FIe (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:474:1873)]
+21:36:33.008 [error] Failure during activation. [Error: Extension 'ms-toolsai.<username>upyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.<username>son#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.<username>upyter
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.<username>s:141:51558)
+	at Ob<username>ect.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.<username>s:163:46251)
+	at new Gf (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:412:14723)
+	at cW (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19484)
+	at GZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19433)
+	at ZZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:20945)
+	at uee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24128)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24370
+	at pee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24284)
+	at dee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24345)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23553
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23482
+	at Array.map (<anonymous>)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23447
+	at HZ.r.reduce.constructorIn<username>ections (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19029)
+	at Array.reduce (<anonymous>)
+	at HZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19002)
+	at GZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19379)
+	at ZZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:20945)
+	at uee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24128)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24370
+	at pee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24284)
+	at dee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24345)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23553
+	at vee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:25620)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55705
+	at r._get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55052)
+	at r._getButThrowIfAsync (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55112)
+	at r.get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:50706)
+	at Pe.get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:80:3503)
+	at FIe (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:474:1873)]
+21:36:33.009 [error] Failed to active the <username>upyter Extension [Error: Extension 'ms-toolsai.<username>upyter' CANNOT use API proposal: notebookCellExecutionState.
+Its package.<username>son#enabledApiProposals-property declares:  but NOT notebookCellExecutionState.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.<username>upyter
+	at v (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.<username>s:141:51558)
+	at Ob<username>ect.onDidChangeNotebookCellExecutionState (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.<username>s:163:46251)
+	at new Gf (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:412:14723)
+	at cW (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19484)
+	at GZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19433)
+	at ZZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:20945)
+	at uee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24128)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24370
+	at pee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24284)
+	at dee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24345)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23553
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23482
+	at Array.map (<anonymous>)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23447
+	at HZ.r.reduce.constructorIn<username>ections (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19029)
+	at Array.reduce (<anonymous>)
+	at HZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19002)
+	at GZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:19379)
+	at ZZ (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:20945)
+	at uee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24128)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24370
+	at pee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24284)
+	at dee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:24345)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:23553
+	at vee (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:25620)
+	at ~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55705
+	at r._get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55052)
+	at r._getButThrowIfAsync (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:55112)
+	at r.get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:7:50706)
+	at Pe.get (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:80:3503)
+	at FIe (~/.vscode-oss/extensions/ms-toolsai.<username>upyter-2024.3.1-universal/dist/extension.node.<username>s:474:1873)]
+21:38:12.840 [info] Disposing Host<username>upyterExecution
+21:38:12.840 [info] Disposing Host<username>upyterExecution

@@ -1,0 +1,73 @@
+2024-06-09 20:14:41.217 [info] Getting Manifest... ms-toolsai.jupyter
+2024-06-09 20:14:42.003 [info] Installing extension: ms-toolsai.jupyter vscode-userdata:/home/j/.vscode-oss/extensions/extensions.json
+2024-06-09 20:14:43.526 [info] Getting Manifest... ms-toolsai.jupyter-renderers
+2024-06-09 20:14:44.011 [info] Installing extension: ms-toolsai.jupyter-renderers vscode-userdata:/home/j/.vscode-oss/extensions/extensions.json
+2024-06-09 20:14:44.845 [info] Getting Manifest... charliermarsh.ruff
+2024-06-09 20:14:45.674 [info] Installing extension: charliermarsh.ruff vscode-userdata:/home/j/.vscode-oss/extensions/extensions.json
+2024-06-09 20:14:46.040 [info] Getting Manifest... ms-python.python
+2024-06-09 20:14:46.176 [info] Getting Manifest... codeium.codeium
+2024-06-09 20:14:46.706 [info] Installing extension: codeium.codeium vscode-userdata:/home/j/.vscode-oss/extensions/extensions.json
+2024-06-09 20:15:16.090 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-09 20:15:16.090 [info] Extension signature verification is not done: codeium.codeium
+2024-06-09 20:15:16.206 [info] Extracted extension to file:///home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal: codeium.codeium
+2024-06-09 20:15:16.211 [info] Renamed to /home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal
+2024-06-09 20:15:16.256 [info] Marked extension as uninstalled codeium.codeium-1.8.36-universal
+2024-06-09 20:15:16.284 [info] Extension installed successfully: codeium.codeium vscode-userdata:/home/j/.vscode-oss/extensions/extensions.json
+2024-06-09 20:15:16.294 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/j/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/j/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-09 20:15:41.933 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-09 20:15:41.934 [info] Extension signature verification is not done: ms-toolsai.jupyter
+2024-06-09 20:15:42.240 [info] Extracted extension to file:///home/j/.vscode-oss/extensions/ms-toolsai.jupyter-2024.5.0-universal: ms-toolsai.jupyter
+2024-06-09 20:15:42.256 [info] Renamed to /home/j/.vscode-oss/extensions/ms-toolsai.jupyter-2024.5.0-universal
+2024-06-09 20:15:42.308 [info] Marked extension as uninstalled ms-toolsai.jupyter-2024.3.1-universal
+2024-06-09 20:15:42.321 [info] Extension installed successfully: ms-toolsai.jupyter vscode-userdata:/home/j/.vscode-oss/extensions/extensions.json
+2024-06-09 20:15:42.341 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/j/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/j/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-09 20:15:55.525 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-09 20:15:55.525 [info] Extension signature verification is not done: charliermarsh.ruff
+2024-06-09 20:15:55.873 [info] Extracted extension to file:///home/j/.vscode-oss/extensions/charliermarsh.ruff-2024.24.0-linux-x64: charliermarsh.ruff
+2024-06-09 20:15:55.886 [info] Renamed to /home/j/.vscode-oss/extensions/charliermarsh.ruff-2024.24.0-linux-x64
+2024-06-09 20:15:55.956 [info] Marked extension as uninstalled charliermarsh.ruff-2024.20.0-linux-x64
+2024-06-09 20:15:55.969 [info] Extension installed successfully: charliermarsh.ruff vscode-userdata:/home/j/.vscode-oss/extensions/extensions.json
+2024-06-09 20:15:55.971 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/j/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/j/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)
+2024-06-09 20:16:14.847 [error] Could not load vsce-sign module Cannot find module '@vscode/vsce-sign'
+Require stack:
+- /usr/lib/code/out/bootstrap-amd.js
+- /usr/lib/code/out/bootstrap-fork.js
+2024-06-09 20:16:14.847 [info] Extension signature verification is not done: ms-toolsai.jupyter-renderers
+2024-06-09 20:16:15.067 [info] Extracted extension to file:///home/j/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.18-universal: ms-toolsai.jupyter-renderers
+2024-06-09 20:16:15.073 [info] Renamed to /home/j/.vscode-oss/extensions/ms-toolsai.jupyter-renderers-1.0.18-universal
+2024-06-09 20:16:15.123 [info] Marked extension as uninstalled ms-toolsai.jupyter-renderers-1.0.17-universal
+2024-06-09 20:16:15.148 [info] Extension installed successfully: ms-toolsai.jupyter-renderers vscode-userdata:/home/j/.vscode-oss/extensions/extensions.json
+2024-06-09 20:16:15.158 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/j/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/j/.vscode-oss/extensions/extensions.json.vsctmp'
+    at c.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19235)
+    at m (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:53:19345)
+    at t.hb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:36685)
+    at t.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:29033)
+    at async b.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:58:14899)
+    at async H.vb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:104:117665)

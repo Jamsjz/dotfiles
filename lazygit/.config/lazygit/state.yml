@@ -1,0 +1,18 @@
+lastupdatecheck: 0
+recentrepos:
+    - /home/j/dotfiles
+    - /home/j/dotfiles/nvim/.config/nvim
+    - /home/j/.config/nvim
+    - /home/j/Clone/dotfile
+    - /home/j/.config/doom
+    - /home/j/books
+startuppopupversion: 5
+lastversion: 0.42.0
+customcommandshistory: []
+hidecommandlog: false
+ignorewhitespaceindiffview: false
+diffcontextsize: 2
+localbranchsortorder: recency
+remotebranchsortorder: alphabetical
+gitlogorder: topo-order
+gitlogshowgraph: always
