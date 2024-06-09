@@ -1,6 +1,7 @@
 lastupdatecheck: 0
 recentrepos:
     - /home/j/dotfiles
+    - /home/j/mydocs
     - /home/j/Clone/dotfile
     - /home/j/dotfiles/nvim/.config/nvim
     - /home/j/.config/nvim
