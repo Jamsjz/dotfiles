@@ -1,3 +1,9 @@
 [submodule "nvim/.config/nvim"]
 	path = nvim/.config/nvim
 	url = https://github.com/Jamsjz/nvim
+[submodule "docs/books"]
+	path = docs/books
+	url = https://github.com/Jamsjz/books
+[submodule "docs/mydocs"]
+	path = docs/mydocs
+	url = https://github.com/Jamsjz/mydocs

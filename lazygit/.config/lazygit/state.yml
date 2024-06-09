@@ -1,9 +1,9 @@
 lastupdatecheck: 0
 recentrepos:
     - /home/j/dotfiles
+    - /home/j/Clone/dotfile
     - /home/j/dotfiles/nvim/.config/nvim
     - /home/j/.config/nvim
-    - /home/j/Clone/dotfile
     - /home/j/books
 startuppopupversion: 5
 lastversion: 0.42.0
