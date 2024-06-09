@@ -4,7 +4,6 @@ recentrepos:
     - /home/j/dotfiles/nvim/.config/nvim
     - /home/j/.config/nvim
     - /home/j/Clone/dotfile
-    - /home/j/.config/doom
     - /home/j/books
 startuppopupversion: 5
 lastversion: 0.42.0
