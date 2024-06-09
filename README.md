@@ -23,4 +23,4 @@ You are good to go
 
 ![nvim](nvim.png)
 
-Huge credit to [Prashant](https://github.com/prasanthrangan/)
+Huge credit to [prasanthrangan](https://github.com/prasanthrangan/)
