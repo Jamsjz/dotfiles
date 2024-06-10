@@ -1,0 +1,209 @@
+11:21:39.216: [Safe Mode] Unclean shutdown detected!
+11:21:43.076: [Safe Mode] User has launched in Safe Mode.
+11:21:43.076: Platform: Wayland
+11:21:43.076: CPU Name: 12th Gen Intel(R) Core(TM) i5-12450H
+11:21:43.076: CPU Speed: 4036.004MHz
+11:21:43.076: Physical Cores: 8, Logical Cores: 12
+11:21:43.076: Physical Memory: 7607MB Total, 1975MB Free
+11:21:43.076: Kernel Version: Linux 6.8.9-arch1-2
+11:21:43.076: Distribution: "Arch Linux" Unknown
+11:21:43.077: Desktop Environment: Hyprland (Hyprland)
+11:21:43.077: Session Type: wayland
+11:21:43.080: Qt Version: 6.7.0 (runtime), 6.7.0 (compiled)
+11:21:43.080: Portable mode: false
+11:21:43.080: Safe Mode enabled.
+11:21:43.094: OBS 30.1.2-1 (linux)
+11:21:43.094: ---------------------------------
+11:21:43.095: ---------------------------------
+11:21:43.095: audio settings reset:
+11:21:43.095: 	samples per sec: 48000
+11:21:43.095: 	speakers:        2
+11:21:43.095: 	max buffering:   960 milliseconds
+11:21:43.095: 	buffering type:  dynamically increasing
+11:21:43.096: ---------------------------------
+11:21:43.096: Initializing OpenGL...
+11:21:43.096: Using EGL/Wayland
+11:21:43.122: Initialized EGL 1.5
+11:21:43.131: Loading up OpenGL on adapter Intel Mesa Intel(R) Graphics (ADL GT2)
+11:21:43.131: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.0.6-arch1.2, shading language 4.60
+11:21:43.155: ---------------------------------
+11:21:43.155: video settings reset:
+11:21:43.155: 	base resolution:   1920x1080
+11:21:43.155: 	output resolution: 1280x720
+11:21:43.155: 	downscale filter:  Bicubic
+11:21:43.155: 	fps:               30/1
+11:21:43.155: 	format:            NV12
+11:21:43.155: 	YUV mode:          Rec. 709/Partial
+11:21:43.155: NV12 texture support enabled
+11:21:43.155: P010 texture support not available
+11:21:43.164: Audio monitoring device:
+11:21:43.164: 	name: Default
+11:21:43.164: 	id: default
+11:21:43.164: ---------------------------------
+11:21:43.170: Failed to load 'en-US' text for module: 'decklink-captions.so'
+11:21:43.176: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+11:21:43.185: Decklink API Compiled version 11.6
+11:21:43.185: Decklink API Installed version 12.9
+11:21:43.190: Skipping module 'frontend-tools', not on safe list
+11:21:43.229: [pipewire] Available captures:
+11:21:43.229: [pipewire]     - Desktop capture
+11:21:43.229: [pipewire]     - Window capture
+11:21:43.274: NVENC supported
+11:21:43.274: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+11:21:43.289: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+11:21:43.345: VAAPI: API version 1.21
+11:21:43.358: FFmpeg VAAPI H264 encoding supported
+11:21:43.358: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+11:21:43.409: FFmpeg VAAPI AV1 encoding supported
+11:21:43.409: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+11:21:43.474: FFmpeg VAAPI HEVC encoding supported
+11:21:43.663: ---------------------------------
+11:21:43.663:   Loaded Modules:
+11:21:43.663:     text-freetype2.so
+11:21:43.663:     rtmp-services.so
+11:21:43.663:     obs-x264.so
+11:21:43.663:     obs-webrtc.so
+11:21:43.663:     obs-vst.so
+11:21:43.663:     obs-transitions.so
+11:21:43.663:     obs-qsv11.so
+11:21:43.663:     obs-outputs.so
+11:21:43.663:     obs-libfdk.so
+11:21:43.663:     obs-filters.so
+11:21:43.663:     obs-ffmpeg.so
+11:21:43.663:     linux-v4l2.so
+11:21:43.663:     linux-pulseaudio.so
+11:21:43.663:     linux-pipewire.so
+11:21:43.663:     linux-jack.so
+11:21:43.663:     linux-capture.so
+11:21:43.663:     linux-alsa.so
+11:21:43.663:     image-source.so
+11:21:43.663:     decklink.so
+11:21:43.663:     decklink-output-ui.so
+11:21:43.663:     decklink-captions.so
+11:21:43.663: ---------------------------------
+11:21:43.663: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+11:21:43.663: ==== Startup complete ===============================================
+11:21:43.716: All scene data cleared
+11:21:43.716: ------------------------------------------------
+11:21:43.726: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+11:21:43.727: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+11:21:43.727: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp__sink.monitor' (default)
+11:21:43.727: [Loaded global audio device]: 'Desktop Audio'
+11:21:43.727: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+11:21:43.728: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+11:21:43.728: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_6__source' (default)
+11:21:43.728: [Loaded global audio device]: 'Mic/Aux'
+11:21:43.728: Switched to scene 'Scene'
+11:21:43.729: ------------------------------------------------
+11:21:43.729: Loaded scenes:
+11:21:43.729: - scene 'Scene':
+11:21:43.729: ------------------------------------------------
+11:21:44.375: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+11:21:44.375: 
+11:22:25.927: Virtual camera started
+11:22:25.930: ==== Virtual Camera Start ==========================================
+11:22:25.930: Starting Virtual Camera output to Program
+11:22:28.059: Output 'virtualcam_output': stopping
+11:22:28.059: Output 'virtualcam_output': Total frames output: 63
+11:22:28.059: Output 'virtualcam_output': Total drawn frames: 64
+11:22:28.059: ==== Virtual Camera Stop ===========================================
+11:22:28.060: Virtual camera stopped
+11:23:11.760: PipeWire initialized
+11:23:11.762: User added source 'Window Capture (PipeWire)' (pipewire-window-capture-source) to scene 'Scene'
+11:23:11.773: [pipewire] Screencast session created
+11:23:34.308: [pipewire] Failed to select source, denied or cancelled by user
+11:25:00.325: Creating a popup with a parent, QWidgetWindow(0x5ba6a5ccf120, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x5ba6a83196b0, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+11:25:03.971: User Removed source 'Window Capture (PipeWire)' (pipewire-window-capture-source) from scene 'Scene'
+11:25:14.872: PipeWire initialized
+11:25:14.874: User added source 'Window Capture (PipeWire)' (pipewire-window-capture-source) to scene 'Scene'
+11:25:14.881: [pipewire] Screencast session created
+11:25:26.258: [pipewire] Asking for window
+11:25:26.270: [pipewire] window selected, setting up screencast
+11:25:26.286: [pipewire] Server version: 1.0.5
+11:25:26.286: [pipewire] Library version: 1.0.6
+11:25:26.286: [pipewire] Header version: 1.0.5
+11:25:26.286: [pipewire] Created stream 0x5ba6a7cd1460
+11:25:26.286: [pipewire] Stream 0x5ba6a7cd1460 state: "connecting" (error: none)
+11:25:26.286: [pipewire] Playing stream 0x5ba6a7cd1460
+11:25:26.286: [pipewire] Stream 0x5ba6a7cd1460 state: "paused" (error: none)
+11:25:26.287: [pipewire] Negotiated format:
+11:25:26.287: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:25:26.287: [pipewire]     Modifier: 0x0
+11:25:26.287: [pipewire]     Size: 465x853
+11:25:26.287: [pipewire]     Framerate: 0/1
+11:25:26.290: [pipewire] Negotiated format:
+11:25:26.290: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:25:26.290: [pipewire]     Modifier: 0x100000000000008
+11:25:26.290: [pipewire]     Size: 465x853
+11:25:26.290: [pipewire]     Framerate: 0/1
+11:25:26.293: [pipewire] Stream 0x5ba6a7cd1460 state: "streaming" (error: none)
+11:25:26.305: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+11:25:26.305: [pipewire] Renegotiating stream
+11:25:26.305: [pipewire] Negotiated format:
+11:25:26.305: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:25:26.305: [pipewire]     Modifier: 0x100000000000008
+11:25:26.305: [pipewire]     Size: 465x853
+11:25:26.305: [pipewire]     Framerate: 0/1
+11:25:26.306: [pipewire] Negotiated format:
+11:25:26.306: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:25:26.306: [pipewire]     Modifier: 0x100000000000006
+11:25:26.306: [pipewire]     Size: 465x853
+11:25:26.306: [pipewire]     Framerate: 0/1
+11:25:26.332: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+11:25:26.332: [pipewire] Renegotiating stream
+11:25:26.333: [pipewire] Stream 0x5ba6a7cd1460 state: "paused" (error: none)
+11:25:26.333: [pipewire] Negotiated format:
+11:25:26.333: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:25:26.333: [pipewire]     Modifier: 0x100000000000006
+11:25:26.333: [pipewire]     Size: 465x853
+11:25:26.333: [pipewire]     Framerate: 0/1
+11:25:26.334: [pipewire] Negotiated format:
+11:25:26.334: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+11:25:26.334: [pipewire]     Modifier: 0x100000000000002
+11:25:26.334: [pipewire]     Size: 465x853
+11:25:26.334: [pipewire]     Framerate: 0/1
+11:25:26.337: [pipewire] Stream 0x5ba6a7cd1460 state: "streaming" (error: none)
+11:27:00.281:   OpenType support missing for "Open Sans", script 11
+11:27:00.287:   OpenType support missing for "Open Sans", script 12
+11:27:00.292:   OpenType support missing for "Open Sans", script 16
+11:27:00.299:   OpenType support missing for "Open Sans", script 20
+11:28:19.231: Number of remaining views: 1
+11:28:19.232: ---------------------------------
+11:28:19.232: video settings reset:
+11:28:19.232: 	base resolution:   1920x1080
+11:28:19.232: 	output resolution: 1280x720
+11:28:19.232: 	downscale filter:  Bicubic
+11:28:19.232: 	fps:               60/1
+11:28:19.232: 	format:            NV12
+11:28:19.232: 	YUV mode:          Rec. 709/Partial
+11:28:19.232: NV12 texture support enabled
+11:28:19.232: P010 texture support not available
+11:28:19.237: Settings changed (outputs, video)
+11:28:19.237: ------------------------------------------------
+11:28:24.299: ---------------------------------
+11:28:24.299: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+11:28:24.299: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+11:28:24.299: 	rate_control: CBR
+11:28:24.299: 	bitrate:      2500
+11:28:24.299: 	cqp:          0
+11:28:24.299: 	keyint:       -1
+11:28:24.299: 	preset:       p5
+11:28:24.299: 	tuning:       hq
+11:28:24.299: 	multipass:    qres
+11:28:24.299: 	profile:      high
+11:28:24.299: 	width:        1280
+11:28:24.299: 	height:       720
+11:28:24.299: 	b-frames:     2
+11:28:24.299: 	psycho-aq:    1
+11:28:24.299: 	GPU:          0
+11:28:24.299: 
+11:28:24.389: libfdk_aac encoder created
+11:28:24.389: libfdk_aac bitrate: 160, channels: 2
+11:28:24.390: ==== Recording Start ===============================================
+11:28:24.391: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/j/Videos/obs/2024-05-15 11-28-24.mkv'...
+11:31:39.379: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/j/Videos/obs/2024-05-15 11-28-24.mkv' stopped
+11:31:39.379: Output 'simple_file_output': stopping
+11:31:39.379: Output 'simple_file_output': Total frames output: 11687
+11:31:39.379: Output 'simple_file_output': Total drawn frames: 11699
+11:31:39.379: ==== Recording Stop ================================================
+11:31:39.624: libfdk_aac encoder destroyed

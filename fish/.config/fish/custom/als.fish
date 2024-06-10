@@ -105,3 +105,5 @@ alias mkdir='mkdir -p'
 
 # Fixes "Error opening terminal: xterm-kitty" when using the default kitty term to open some programs through ssh
 alias ssh='kitten ssh'
+
+alias lg='lazygit --use-config-file="<config-dir>/config.yml,mocha.yml"'

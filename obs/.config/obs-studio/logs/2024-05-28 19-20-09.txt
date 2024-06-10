@@ -1,0 +1,176 @@
+19:20:09.641: Platform: Wayland
+19:20:09.642: CPU Name: 12th Gen Intel(R) Core(TM) i5-12450H
+19:20:09.642: CPU Speed: 400.000MHz
+19:20:09.642: Physical Cores: 8, Logical Cores: 12
+19:20:09.642: Physical Memory: 7607MB Total, 1271MB Free
+19:20:09.642: Kernel Version: Linux 6.8.9-arch1-2
+19:20:09.642: Distribution: "Arch Linux" Unknown
+19:20:09.642: Desktop Environment: Hyprland (Hyprland)
+19:20:09.642: Session Type: wayland
+19:20:09.643: Qt Version: 6.7.0 (runtime), 6.7.0 (compiled)
+19:20:09.643: Portable mode: false
+19:20:09.679: OBS 30.1.2-1 (linux)
+19:20:09.679: ---------------------------------
+19:20:09.679: ---------------------------------
+19:20:09.679: audio settings reset:
+19:20:09.679: 	samples per sec: 48000
+19:20:09.679: 	speakers:        2
+19:20:09.679: 	max buffering:   960 milliseconds
+19:20:09.679: 	buffering type:  dynamically increasing
+19:20:09.681: ---------------------------------
+19:20:09.681: Initializing OpenGL...
+19:20:09.681: Using EGL/Wayland
+19:20:09.708: Initialized EGL 1.5
+19:20:09.718: Loading up OpenGL on adapter Intel Mesa Intel(R) Graphics (ADL GT2)
+19:20:09.718: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.0.6-arch1.2, shading language 4.60
+19:20:09.740: ---------------------------------
+19:20:09.740: video settings reset:
+19:20:09.740: 	base resolution:   1920x1080
+19:20:09.740: 	output resolution: 1280x720
+19:20:09.740: 	downscale filter:  Bicubic
+19:20:09.740: 	fps:               60/1
+19:20:09.740: 	format:            NV12
+19:20:09.740: 	YUV mode:          Rec. 709/Partial
+19:20:09.740: NV12 texture support enabled
+19:20:09.740: P010 texture support not available
+19:20:09.747: Audio monitoring device:
+19:20:09.747: 	name: Default
+19:20:09.747: 	id: default
+19:20:09.747: ---------------------------------
+19:20:09.753: Failed to load 'en-US' text for module: 'decklink-captions.so'
+19:20:09.758: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+19:20:09.768: Decklink API Compiled version 11.6
+19:20:09.768: Decklink API Installed version 12.9
+19:20:09.865: [pipewire] Available captures:
+19:20:09.865: [pipewire]     - Desktop capture
+19:20:09.865: [pipewire]     - Window capture
+19:20:09.922: NVENC supported
+19:20:09.922: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly
+19:20:09.937: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+19:20:09.987: VAAPI: API version 1.21
+19:20:09.997: FFmpeg VAAPI H264 encoding supported
+19:20:09.997: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+19:20:10.037: FFmpeg VAAPI AV1 encoding supported
+19:20:10.037: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+19:20:10.102: FFmpeg VAAPI HEVC encoding supported
+19:20:10.278: ---------------------------------
+19:20:10.278:   Loaded Modules:
+19:20:10.278:     text-freetype2.so
+19:20:10.278:     rtmp-services.so
+19:20:10.278:     obs-x264.so
+19:20:10.278:     obs-webrtc.so
+19:20:10.278:     obs-vst.so
+19:20:10.278:     obs-transitions.so
+19:20:10.278:     obs-qsv11.so
+19:20:10.278:     obs-outputs.so
+19:20:10.278:     obs-libfdk.so
+19:20:10.278:     obs-filters.so
+19:20:10.278:     obs-ffmpeg.so
+19:20:10.278:     linux-v4l2.so
+19:20:10.278:     linux-pulseaudio.so
+19:20:10.278:     linux-pipewire.so
+19:20:10.278:     linux-jack.so
+19:20:10.278:     linux-capture.so
+19:20:10.278:     linux-alsa.so
+19:20:10.278:     image-source.so
+19:20:10.278:     frontend-tools.so
+19:20:10.278:     decklink.so
+19:20:10.278:     decklink-output-ui.so
+19:20:10.278:     decklink-captions.so
+19:20:10.278: ---------------------------------
+19:20:10.278: QWidget::setTabOrder: 'first' and 'second' must be in the same window
+19:20:10.278: ==== Startup complete ===============================================
+19:20:10.301: All scene data cleared
+19:20:10.301: ------------------------------------------------
+19:20:10.304: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.6) 15.0.0'
+19:20:10.304: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+19:20:10.304: pulse-input: Started recording from 'bluez_output.8F_93_D8_A6_60_94.a2dp-sink.monitor' (default)
+19:20:10.304: [Loaded global audio device]: 'Desktop Audio'
+19:20:10.304: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.6) 15.0.0'
+19:20:10.304: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+19:20:10.304: pulse-input: Started recording from 'alsa_input.pci-0000_00_1f.3-platform-skl_hda_dsp_generic.HiFi__hw_sofhdadsp_6__source' (default)
+19:20:10.304: [Loaded global audio device]: 'Mic/Aux'
+19:20:10.305: PipeWire initialized
+19:20:10.305: Switched to scene 'Scene'
+19:20:10.306: ------------------------------------------------
+19:20:10.306: Loaded scenes:
+19:20:10.306: - scene 'Scene':
+19:20:10.306:     - source: 'Window Capture (PipeWire)' (pipewire-window-capture-source)
+19:20:10.306: ------------------------------------------------
+19:20:10.330: [pipewire] Screencast session created
+19:20:10.504: [rtmp-services plugin] Remote update of URL "https://obsproject.com/obs2_update/rtmp-services/v5/package.json" failed: Failed to connect to obsproject.com port 443 after 231 ms: Couldn't connect to server
+19:20:10.853: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+19:20:10.853: 
+19:20:12.472: [pipewire] Asking for window
+19:20:12.475: [pipewire] window selected, setting up screencast
+19:20:12.480: [pipewire] Server version: 1.0.6
+19:20:12.480: [pipewire] Library version: 1.0.6
+19:20:12.480: [pipewire] Header version: 1.0.5
+19:20:12.480: [pipewire] Created stream 0x5630d0d9cb50
+19:20:12.480: [pipewire] Stream 0x5630d0d9cb50 state: "connecting" (error: none)
+19:20:12.480: [pipewire] Playing stream 0x5630d0d9cb50
+19:20:12.481: [pipewire] Stream 0x5630d0d9cb50 state: "paused" (error: none)
+19:20:12.481: [pipewire] Negotiated format:
+19:20:12.481: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:20:12.481: [pipewire]     Modifier: 0x0
+19:20:12.481: [pipewire]     Size: 1920x1080
+19:20:12.481: [pipewire]     Framerate: 0/1
+19:20:12.484: [pipewire] Negotiated format:
+19:20:12.484: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:20:12.484: [pipewire]     Modifier: 0x100000000000008
+19:20:12.484: [pipewire]     Size: 1920x1080
+19:20:12.484: [pipewire]     Framerate: 0/1
+19:20:12.493: [pipewire] Stream 0x5630d0d9cb50 state: "streaming" (error: none)
+19:20:12.502: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+19:20:12.502: [pipewire] Renegotiating stream
+19:20:12.503: [pipewire] Negotiated format:
+19:20:12.503: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:20:12.503: [pipewire]     Modifier: 0x100000000000008
+19:20:12.503: [pipewire]     Size: 1920x1080
+19:20:12.503: [pipewire]     Framerate: 0/1
+19:20:12.506: [pipewire] Negotiated format:
+19:20:12.506: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:20:12.506: [pipewire]     Modifier: 0x100000000000006
+19:20:12.506: [pipewire]     Size: 1920x1080
+19:20:12.506: [pipewire]     Framerate: 0/1
+19:20:12.524: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+19:20:12.524: [pipewire] Renegotiating stream
+19:20:12.524: [pipewire] Stream 0x5630d0d9cb50 state: "paused" (error: none)
+19:20:12.524: [pipewire] Negotiated format:
+19:20:12.524: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:20:12.524: [pipewire]     Modifier: 0x100000000000006
+19:20:12.524: [pipewire]     Size: 1920x1080
+19:20:12.524: [pipewire]     Framerate: 0/1
+19:20:12.526: [pipewire] Negotiated format:
+19:20:12.526: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+19:20:12.526: [pipewire]     Modifier: 0x100000000000002
+19:20:12.526: [pipewire]     Size: 1920x1080
+19:20:12.526: [pipewire]     Framerate: 0/1
+19:20:12.533: [pipewire] Stream 0x5630d0d9cb50 state: "streaming" (error: none)
+19:20:17.033: ---------------------------------
+19:20:17.034: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+19:20:17.034: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+19:20:17.034: 	rate_control: CBR
+19:20:17.034: 	bitrate:      2500
+19:20:17.034: 	cqp:          0
+19:20:17.034: 	keyint:       -1
+19:20:17.034: 	preset:       p5
+19:20:17.034: 	tuning:       hq
+19:20:17.034: 	multipass:    qres
+19:20:17.034: 	profile:      high
+19:20:17.034: 	width:        1280
+19:20:17.034: 	height:       720
+19:20:17.034: 	b-frames:     2
+19:20:17.034: 	psycho-aq:    1
+19:20:17.034: 	GPU:          0
+19:20:17.034: 
+19:20:17.131: libfdk_aac encoder created
+19:20:17.131: libfdk_aac bitrate: 160, channels: 2
+19:20:17.131: ==== Recording Start ===============================================
+19:20:17.131: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/j/Videos/obs/2024-05-28 19-20-17.mkv'...
+19:21:05.903: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/j/Videos/obs/2024-05-28 19-20-17.mkv' stopped
+19:21:05.903: Output 'simple_file_output': stopping
+19:21:05.903: Output 'simple_file_output': Total frames output: 2913
+19:21:05.903: Output 'simple_file_output': Total drawn frames: 2926
+19:21:05.903: ==== Recording Stop ================================================
+19:21:06.132: libfdk_aac encoder destroyed

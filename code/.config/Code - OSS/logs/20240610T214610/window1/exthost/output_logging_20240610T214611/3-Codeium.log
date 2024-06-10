@@ -1,0 +1,82 @@
+2024-06-10 21:46:12.118 [INFO]: No proxy settings found
+2024-06-10 21:46:14.554 [INFO]: Creating manager directory: /tmp/97acaf80-cb09-4290-8635-ffc099b115eb/codeium/manager
+2024-06-10 21:46:14.769 [INFO]: Using cached LS with valid crc32: /home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/42fbd33713da99925455bf873cebc46d05a18a4d/language_server_linux_x64
+2024-06-10 21:46:14.774 [INFO]: Language server started
+2024-06-10 21:46:14.897 [INFO]: [Language Server (stderr)]:
+I0610 21:46:14.896578 85902 main.go:558] Starting language server manager with pid 85902
+I0610 21:46:14.896666 85902 main.go:110] Manager acquired its lock file /tmp/97acaf80-cb09-4290-8635-ffc099b115eb/codeium/manager/locks/manager.lock
+2024-06-10 21:46:14.898 [INFO]: [Language Server (stderr)]:
+I0610 21:46:14.897175 85902 main.go:248] Waiting for random port file in /tmp/97acaf80-cb09-4290-8635-ffc099b115eb/codeium/manager/child_random_port_1718035274896772127_6454173551539714612 to be created
+2024-06-10 21:46:15.006 [INFO]: [Language Server (stderr)]:
+I0610 21:46:15.006129 85919 main.go:552] Starting language server process with pid 85919
+I0610 21:46:15.006181 85919 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0610 21:46:15.006269 85919 server.go:163] Language server listening on random port at 35339
+2024-06-10 21:46:15.007 [INFO]: [Language Server (stderr)]:
+I0610 21:46:15.006316 85919 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0610 21:46:15.006338 85919 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0610 21:46:15.006352 85919 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-06-10 21:46:16.372 [INFO]: [Language Server (stderr)]:
+I0610 21:46:16.371452 85919 unleash.go:90] Initializing Unleash
+2024-06-10 21:46:17.320 [INFO]: [Language Server (stderr)]:
+I0610 21:46:17.319665 85919 unleash.go:110] Successfully initialized Unleash
+2024-06-10 21:46:17.335 [INFO]: [Language Server (stderr)]:
+E0610 21:46:17.334470 85919 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+2024-06-10 21:46:18.292 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.291499 85919 server.go:355] Successfully created API server client
+2024-06-10 21:46:18.319 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.319219 85919 server.go:364] Successfully initialized tokenizer
+2024-06-10 21:46:18.377 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.376552 85919 server.go:471] Local search is enabled, will index local files.
+I0610 21:46:18.376579 85919 server.go:475] Using 3 indexer workers
+I0610 21:46:18.376608 85919 search_provider.go:193] Using database at /home/j/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-06-10 21:46:18.385 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.384927 85919 database.go:123] Bad db state detected: false
+2024-06-10 21:46:18.385 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.385412 85919 search_provider.go:207] Successfully created embedding search database in 8ms
+2024-06-10 21:46:18.385 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.385637 85919 search_provider.go:229] Successfully created and started indexer
+I0610 21:46:18.385655 85919 search_provider.go:255] Successfully created embedding search provider
+I0610 21:46:18.385661 85919 server.go:510] Successfully created exact search provider
+2024-06-10 21:46:18.389 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.389166 85919 server.go:540] Successfully created completion provider
+I0610 21:46:18.389203 85919 server.go:589] Child process attempting to acquire lock file /tmp/97acaf80-cb09-4290-8635-ffc099b115eb/codeium/manager/locks/child_lock_1718035274896825125_8243798917155981954
+I0610 21:46:18.389242 85919 server.go:597] Child process acquired lock file /tmp/97acaf80-cb09-4290-8635-ffc099b115eb/codeium/manager/locks/child_lock_1718035274896825125_8243798917155981954
+2024-06-10 21:46:18.393 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.392562 85919 server.go:183] LSP listening on random port at 38775
+2024-06-10 21:46:18.393 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.392939 85919 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:35461
+2024-06-10 21:46:18.416 [INFO]: [Language Server (stdout)]:
+38775
+2024-06-10 21:46:18.417 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.416290 85902 main.go:284] Language server manager found random server port 35339
+I0610 21:46:18.416339 85902 main.go:285] Language server manager found random lsp port 38775
+I0610 21:46:18.416356 85902 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:35339
+2024-06-10 21:46:18.438 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.437574 85902 main.go:163] Fixing language server port at 35339
+I0610 21:46:18.437590 85902 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:35339
+2024-06-10 21:46:18.501 [INFO]: Found language server running on port 35339
+2024-06-10 21:46:18.510 [INFO]: Downloaded binary: /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-10 21:46:18.519 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.518363 85919 rpcs_miscellaneous.go:118] Ripgrep available at /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-10 21:46:18.927 [INFO]: [Language Server (stderr)]:
+I0610 21:46:18.926504 85919 rpcs_miscellaneous.go:312] University version is up to date.
+2024-06-10 21:47:16.412 [INFO]: [Language Server (stderr)]:
+E0610 21:47:16.411386 85919 unleash.go:60] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": dial tcp: lookup unleash.codeium.com: no such host
+2024-06-10 21:52:17.336 [INFO]: [Language Server (stderr)]:
+I0610 21:52:17.335556 85919 client_manager.go:248] Pruning inactive client for {769b771f-8793-4b7e-be2f-60c6d5f04d13 38f93947-cd6c-487f-88bb-72a7d16d2b42}
+2024-06-10 22:47:18.374 [INFO]: [Language Server (stderr)]:
+E0610 22:47:18.372831 85919 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 22:48:18.373 [INFO]: [Language Server (stderr)]:
+E0610 22:48:18.371980 85919 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 23:01:18.374 [INFO]: [Language Server (stderr)]:
+E0610 23:01:18.373686 85919 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 23:23:18.374 [INFO]: [Language Server (stderr)]:
+E0610 23:23:18.373318 85919 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 23:30:18.374 [INFO]: [Language Server (stderr)]:
+E0610 23:30:18.373687 85919 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 23:37:18.374 [INFO]: [Language Server (stderr)]:
+E0610 23:37:18.372898 85919 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 23:38:18.372 [INFO]: [Language Server (stderr)]:
+E0610 23:38:18.372137 85919 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-11 00:41:16.414 [INFO]: [Language Server (stderr)]:
+E0611 00:41:16.414291 85919 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": dial tcp: lookup unleash.codeium.com: no such host

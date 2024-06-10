@@ -1,0 +1,25 @@
+2024-06-10 21:46:11.607 [info] Extension host with pid 85859 started
+2024-06-10 21:46:11.625 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-10 21:46:11.654 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-10 21:46:11.656 [info] ExtensionService#_doActivateExtension mlplatform.ml-kernel, startup: true, activationEvent: '*'
+2024-06-10 21:46:11.722 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-10 21:46:11.743 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-10 21:46:11.766 [error] TypeError: Cannot read properties of undefined (reading 'webview')
+	at n.value (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:144040)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at t.<anonymous> (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:123272)
+	at /home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:120148
+	at Object.next (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:120253)
+	at a (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:118990)
+2024-06-10 21:46:11.835 [info] Eager extensions activated
+2024-06-10 21:46:11.885 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-10 21:46:11.895 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-10 21:46:11.899 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-06-10 21:46:11.901 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-06-10 21:46:11.964 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-06-10 21:46:12.055 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-06-10 21:46:12.076 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-06-10 21:46:12.193 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-10 21:46:12.205 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-10 21:46:13.134 [error] Error: ENOENT: no such file or directory, open '/home/j/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'

@@ -137,5 +137,8 @@ alias zi=__zoxide_zi
 
 # add path
 fish_add_path /home/j/anaconda3/bin/
+fish_add_path /home/j/.cargo/bin/
+
+
 
 starship init fish | source

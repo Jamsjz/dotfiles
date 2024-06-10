@@ -1,0 +1,86 @@
+2024-06-10 20:21:36.865 [INFO]: No proxy settings found
+2024-06-10 20:21:40.593 [INFO]: Creating manager directory: /tmp/dd731ab1-a603-4e7b-b904-0bfbecd23258/codeium/manager
+2024-06-10 20:21:40.596 [INFO]: 42fbd33713da99925455bf873cebc46d05a18a4d not found, downloading language server
+2024-06-10 20:21:40.600 [INFO]: No proxy settings found
+2024-06-10 20:22:37.852 [INFO]: Language server started
+2024-06-10 20:22:38.219 [INFO]: [Language Server (stderr)]:
+I0610 20:22:38.216652 42673 main.go:558] Starting language server manager with pid 42673
+I0610 20:22:38.217378 42673 main.go:110] Manager acquired its lock file /tmp/dd731ab1-a603-4e7b-b904-0bfbecd23258/codeium/manager/locks/manager.lock
+2024-06-10 20:22:38.223 [INFO]: [Language Server (stderr)]:
+I0610 20:22:38.219838 42673 main.go:248] Waiting for random port file in /tmp/dd731ab1-a603-4e7b-b904-0bfbecd23258/codeium/manager/child_random_port_1718030258217823652_7291843731497728045 to be created
+2024-06-10 20:22:38.492 [INFO]: [Language Server (stderr)]:
+I0610 20:22:38.490584 42686 main.go:552] Starting language server process with pid 42686
+2024-06-10 20:22:38.493 [INFO]: [Language Server (stderr)]:
+I0610 20:22:38.490857 42686 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0610 20:22:38.491342 42686 server.go:163] Language server listening on random port at 40235
+I0610 20:22:38.491914 42686 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0610 20:22:38.491976 42686 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0610 20:22:38.492010 42686 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-06-10 20:22:40.909 [INFO]: [Language Server (stderr)]:
+I0610 20:22:40.907023 42686 unleash.go:90] Initializing Unleash
+2024-06-10 20:22:42.221 [INFO]: [Language Server (stderr)]:
+I0610 20:22:42.219134 42686 unleash.go:110] Successfully initialized Unleash
+2024-06-10 20:22:42.265 [INFO]: [Language Server (stderr)]:
+E0610 20:22:42.261832 42686 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+2024-06-10 20:22:44.567 [INFO]: [Language Server (stderr)]:
+I0610 20:22:44.565117 42686 server.go:355] Successfully created API server client
+2024-06-10 20:22:44.642 [INFO]: [Language Server (stderr)]:
+I0610 20:22:44.640193 42686 server.go:364] Successfully initialized tokenizer
+2024-06-10 20:22:44.830 [INFO]: [Language Server (stderr)]:
+I0610 20:22:44.826225 42686 server.go:471] Local search is enabled, will index local files.
+I0610 20:22:44.826284 42686 server.go:475] Using 3 indexer workers
+I0610 20:22:44.826342 42686 search_provider.go:193] Using database at /home/j/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-06-10 20:22:44.853 [INFO]: [Language Server (stderr)]:
+I0610 20:22:44.851165 42686 database.go:123] Bad db state detected: false
+2024-06-10 20:22:44.868 [INFO]: [Language Server (stderr)]:
+I0610 20:22:44.866104 42686 search_provider.go:207] Successfully created embedding search database in 39ms
+I0610 20:22:44.866773 42686 search_provider.go:229] Successfully created and started indexer
+I0610 20:22:44.866968 42686 search_provider.go:255] Successfully created embedding search provider
+I0610 20:22:44.867053 42686 server.go:510] Successfully created exact search provider
+2024-06-10 20:22:44.891 [INFO]: [Language Server (stderr)]:
+I0610 20:22:44.877607 42686 server.go:540] Successfully created completion provider
+I0610 20:22:44.881897 42686 server.go:589] Child process attempting to acquire lock file /tmp/dd731ab1-a603-4e7b-b904-0bfbecd23258/codeium/manager/locks/child_lock_1718030258218068805_1231024418501760694
+I0610 20:22:44.882011 42686 server.go:597] Child process acquired lock file /tmp/dd731ab1-a603-4e7b-b904-0bfbecd23258/codeium/manager/locks/child_lock_1718030258218068805_1231024418501760694
+2024-06-10 20:22:44.895 [INFO]: [Language Server (stderr)]:
+I0610 20:22:44.889097 42686 server.go:183] LSP listening on random port at 35985
+I0610 20:22:44.892564 42686 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:35753
+2024-06-10 20:22:44.960 [INFO]: [Language Server (stdout)]:
+35985
+2024-06-10 20:22:44.962 [INFO]: [Language Server (stderr)]:
+I0610 20:22:44.957993 42673 main.go:284] Language server manager found random server port 40235
+I0610 20:22:44.958059 42673 main.go:285] Language server manager found random lsp port 35985
+I0610 20:22:44.958076 42673 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:40235
+2024-06-10 20:22:45.037 [INFO]: [Language Server (stderr)]:
+I0610 20:22:45.033579 42673 main.go:163] Fixing language server port at 40235
+I0610 20:22:45.033671 42673 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:40235
+2024-06-10 20:22:45.120 [INFO]: Found language server running on port 40235
+2024-06-10 20:22:45.168 [INFO]: Downloaded binary: /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-10 20:22:45.228 [INFO]: [Language Server (stderr)]:
+I0610 20:22:45.226795 42686 rpcs_miscellaneous.go:118] Ripgrep available at /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-10 20:22:46.554 [INFO]: [Language Server (stderr)]:
+I0610 20:22:46.553021 42686 rpcs_miscellaneous.go:312] University version is up to date.
+2024-06-10 20:23:42.914 [INFO]: [Language Server (stderr)]:
+E0610 20:23:42.912243 42686 unleash.go:60] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 20:24:42.909 [INFO]: [Language Server (stderr)]:
+E0610 20:24:42.907981 42686 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 20:28:42.264 [INFO]: [Language Server (stderr)]:
+I0610 20:28:42.263854 42686 client_manager.go:248] Pruning inactive client for {769b771f-8793-4b7e-be2f-60c6d5f04d13 60ffcde6-9201-4f82-8fad-404da75361c6}
+2024-06-10 20:45:42.910 [INFO]: [Language Server (stderr)]:
+E0610 20:45:42.909118 42686 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 21:10:42.910 [INFO]: [Language Server (stderr)]:
+E0610 21:10:42.909018 42686 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 21:11:41.172 [INFO]: [Language Server (stderr)]:
+E0610 21:11:41.171222 42686 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": dial tcp: lookup unleash.codeium.com: no such host
+2024-06-10 21:15:42.910 [INFO]: [Language Server (stderr)]:
+E0610 21:15:42.908916 42686 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 21:22:42.909 [INFO]: [Language Server (stderr)]:
+E0610 21:22:42.908763 42686 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 21:23:42.909 [INFO]: [Language Server (stderr)]:
+E0610 21:23:42.908396 42686 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 21:44:42.920 [INFO]: [Language Server (stderr)]:
+E0610 21:44:42.918566 42686 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-10 21:46:05.695 [INFO]: Disposing language server process
+2024-06-10 21:46:05.696 [INFO]: Deleting manager directory: /tmp/dd731ab1-a603-4e7b-b904-0bfbecd23258/codeium/manager
+2024-06-10 21:46:05.698 [INFO]: Successfully disposed language server
+2024-06-10 21:46:05.705 [INFO]: [Language Server (stderr)]:
+W0610 21:46:05.697258 42673 main.go:114] Language server manager got signal terminated, shutting down

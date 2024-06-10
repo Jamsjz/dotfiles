@@ -1,0 +1,154 @@
+2024-06-10 21:46:10.983 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/j/--ozone-platform-hint=wayland","scheme":"file"},"type":1,"exists":false},{"fileUri":{"$mid":1,"path":"/home/j/--disable-gpu","scheme":"file"},"type":1,"exists":false}],"filesToDiff":[],"filesToMerge":[]}
+2024-06-10 21:46:11.288 [info] Started local extension host with pid 85859.
+2024-06-10 21:46:11.390 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, contribIssueReporter, debugVisualization'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-06-10 21:46:11.391 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, contribIssueReporter'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-06-10 21:46:11.391 [error] Extension 'ms-toolsai.jupyter CANNOT USE these API proposals 'notebookDeprecated, notebookMessaging, notebookMime, contribNotebookStaticPreloads, portsAttributes, quickPickSortByLabel, notebookKernelSource, interactiveWindow, quickPickItemTooltip, notebookExecution, notebookCellExecution, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-06-10 21:46:11.391 [error] Extension 'ms-toolsai.jupyter-renderers CANNOT USE these API proposals 'contribNotebookStaticPreloads'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2024-06-10 21:46:11.413 [error] [tht13.python]: 'configuration.jsonValidation.url' must be an absolute URL or start with './'  to reference schemas located in the extension.
+2024-06-10 21:46:11.427 [error] [ms-python.debugpy]: issue/reporter is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribIssueReporter"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.debugpy
+2024-06-10 21:46:11.428 [error] [ms-python.python]: issue/reporter is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribIssueReporter"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2024-06-10 21:46:11.428 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2024-06-10 21:46:11.689 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-html
+2024-06-10 21:46:11.689 [error] [EricSia.pythonsnippets3pro]: Unknown language in `contributes.pythonsnippets3pro.language`. Provided value: django-txt
+2024-06-10 21:46:13.137 [error] ENOENT: no such file or directory, open '/home/j/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers': Error: ENOENT: no such file or directory, open '/home/j/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2024-06-10 21:46:13.941 [info] [perf] Render performance baseline is 19ms
+2024-06-10 21:47:16.463 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+	at ClientRequest.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173797)
+	at ClientRequest.emit (node:events:526:35)
+	at ClientRequest.emit (node:domain:488:12)
+	at TLSSocket.socketErrorListener (node:_http_client:495:9)
+	at TLSSocket.emit (node:events:514:28)
+	at TLSSocket.emit (node:domain:488:12)
+	at emitErrorNT (node:internal/streams/destroy:151:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-06-10 22:02:45.279 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+	at ClientRequest.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173797)
+	at ClientRequest.emit (node:events:526:35)
+	at ClientRequest.emit (node:domain:488:12)
+	at TLSSocket.socketErrorListener (node:_http_client:495:9)
+	at TLSSocket.emit (node:events:514:28)
+	at TLSSocket.emit (node:domain:488:12)
+	at emitErrorNT (node:internal/streams/destroy:151:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-06-10 22:11:04.142 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+	at ClientRequest.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173797)
+	at ClientRequest.emit (node:events:526:35)
+	at ClientRequest.emit (node:domain:488:12)
+	at TLSSocket.socketErrorListener (node:_http_client:495:9)
+	at TLSSocket.emit (node:events:514:28)
+	at TLSSocket.emit (node:domain:488:12)
+	at emitErrorNT (node:internal/streams/destroy:151:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-06-10 22:20:21.455 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+	at ClientRequest.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173797)
+	at ClientRequest.emit (node:events:526:35)
+	at ClientRequest.emit (node:domain:488:12)
+	at TLSSocket.socketErrorListener (node:_http_client:495:9)
+	at TLSSocket.emit (node:events:514:28)
+	at TLSSocket.emit (node:domain:488:12)
+	at emitErrorNT (node:internal/streams/destroy:151:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-06-10 22:23:43.661 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 22:25:54.258 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 22:27:03.293 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 22:29:14.000 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 22:46:49.184 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 22:53:05.557 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 22:57:12.482 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+	at ClientRequest.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173797)
+	at ClientRequest.emit (node:events:526:35)
+	at ClientRequest.emit (node:domain:488:12)
+	at TLSSocket.socketErrorListener (node:_http_client:495:9)
+	at TLSSocket.emit (node:events:514:28)
+	at TLSSocket.emit (node:domain:488:12)
+	at emitErrorNT (node:internal/streams/destroy:151:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-06-10 23:01:28.221 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 23:02:37.253 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 23:08:53.894 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 23:13:06.232 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 23:23:25.466 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 23:28:40.205 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 23:29:47.313 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-10 23:30:56.343 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-11 00:06:46.032 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+	at ClientRequest.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173797)
+	at ClientRequest.emit (node:events:526:35)
+	at ClientRequest.emit (node:domain:488:12)
+	at TLSSocket.socketErrorListener (node:_http_client:495:9)
+	at TLSSocket.emit (node:events:514:28)
+	at TLSSocket.emit (node:domain:488:12)
+	at emitErrorNT (node:internal/streams/destroy:151:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-06-11 00:40:34.274 [error] [Extension Host] FetchError: Unleash Repository error: network timeout at: https://unleash.codeium.com/api/client/features
+	at Timeout.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173671)
+	at listOnTimeout (node:internal/timers:573:17)
+	at process.processTimers (node:internal/timers:514:7)
+2024-06-11 00:52:50.301 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+	at ClientRequest.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173797)
+	at ClientRequest.emit (node:events:526:35)
+	at ClientRequest.emit (node:domain:488:12)
+	at TLSSocket.socketErrorListener (node:_http_client:495:9)
+	at TLSSocket.emit (node:events:514:28)
+	at TLSSocket.emit (node:domain:488:12)
+	at emitErrorNT (node:internal/streams/destroy:151:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-06-11 01:03:04.548 [error] [Extension Host] FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+	at ClientRequest.<anonymous> (/home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/extension.js:2:2173797)
+	at ClientRequest.emit (node:events:526:35)
+	at ClientRequest.emit (node:domain:488:12)
+	at TLSSocket.socketErrorListener (node:_http_client:495:9)
+	at TLSSocket.emit (node:events:514:28)
+	at TLSSocket.emit (node:domain:488:12)
+	at emitErrorNT (node:internal/streams/destroy:151:8)
+	at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)

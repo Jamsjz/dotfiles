@@ -1,0 +1,52 @@
+23:16:47.507: [Safe Mode] Unclean shutdown detected!
+23:16:49.307: [Safe Mode] User has launched in Safe Mode.
+23:16:49.308: Platform: Wayland
+23:16:49.308: CPU Name: 12th Gen Intel(R) Core(TM) i5-12450H
+23:16:49.308: CPU Speed: 814.115MHz
+23:16:49.308: Physical Cores: 8, Logical Cores: 12
+23:16:49.308: Physical Memory: 7607MB Total, 2310MB Free
+23:16:49.308: Kernel Version: Linux 6.8.9-arch1-2
+23:16:49.308: Distribution: "Arch Linux" Unknown
+23:16:49.308: Desktop Environment: Hyprland (Hyprland)
+23:16:49.308: Session Type: wayland
+23:16:49.320: Qt Version: 6.7.0 (runtime), 6.7.0 (compiled)
+23:16:49.320: Portable mode: false
+23:16:49.320: Safe Mode enabled.
+23:16:49.339: OBS 30.1.2-1 (linux)
+23:16:49.339: ---------------------------------
+23:16:49.339: ---------------------------------
+23:16:49.339: audio settings reset:
+23:16:49.339: 	samples per sec: 48000
+23:16:49.339: 	speakers:        2
+23:16:49.339: 	max buffering:   960 milliseconds
+23:16:49.339: 	buffering type:  dynamically increasing
+23:16:49.340: ---------------------------------
+23:16:49.340: Initializing OpenGL...
+23:16:49.341: Using EGL/Wayland
+23:16:49.372: Initialized EGL 1.5
+23:16:49.383: Loading up OpenGL on adapter Intel Mesa Intel(R) Graphics (ADL GT2)
+23:16:49.383: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.0.6-arch1.2, shading language 4.60
+23:16:49.408: ---------------------------------
+23:16:49.408: video settings reset:
+23:16:49.408: 	base resolution:   1920x1080
+23:16:49.408: 	output resolution: 1280x720
+23:16:49.408: 	downscale filter:  Bicubic
+23:16:49.408: 	fps:               30/1
+23:16:49.408: 	format:            NV12
+23:16:49.408: 	YUV mode:          Rec. 709/Partial
+23:16:49.408: NV12 texture support enabled
+23:16:49.408: P010 texture support not available
+23:16:49.417: Audio monitoring device:
+23:16:49.417: 	name: Default
+23:16:49.417: 	id: default
+23:16:49.417: ---------------------------------
+23:16:49.425: Failed to load 'en-US' text for module: 'decklink-captions.so'
+23:16:49.433: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+23:16:49.442: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+23:16:49.442: Failed to initialize module 'decklink.so'
+23:16:49.450: Skipping module 'frontend-tools', not on safe list
+23:16:49.504: [pipewire] Available captures:
+23:16:49.504: [pipewire]     - Desktop capture
+23:16:49.504: [pipewire]     - Window capture
+23:16:49.551: NVENC supported
+23:16:49.551: LIBVA_DRIVER_NAME variable is set, this could prevent FFmpeg VAAPI from working correctly

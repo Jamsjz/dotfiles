@@ -1,0 +1,11 @@
+{"timestamp":58182385,"category":"nimbus_events","name":"enrollment","extra":{"branch":"control","glean_timestamp":"1718044674550","experiment_type":"rollout","experiment":"add-an-image-to-pdf-with-alt-text-rollout"}}
+{"timestamp":58182393,"category":"nimbus_events","name":"enrollment","extra":{"experiment":"csv-import-release-rollout","experiment_type":"rollout","branch":"enable-csv-import","glean_timestamp":"1718044674558"}}
+{"timestamp":58182396,"category":"nimbus_events","name":"enrollment","extra":{"branch":"rollout","glean_timestamp":"1718044674561","experiment_type":"rollout","experiment":"ech-roll-out"}}
+{"timestamp":58182413,"category":"nimbus_events","name":"enrollment","extra":{"experiment_type":"rollout","glean_timestamp":"1718044674578","experiment":"upgrade-spotlight-rollout","branch":"treatment"}}
+{"timestamp":58182424,"category":"nimbus_events","name":"enrollment","extra":{"glean_timestamp":"1718044674589","experiment":"phc-rollout","branch":"rollout","experiment_type":"rollout"}}
+{"timestamp":58182432,"category":"nimbus_events","name":"enrollment","extra":{"experiment":"highlighting-in-pdfs-rollout","branch":"treatment","glean_timestamp":"1718044674597","experiment_type":"rollout"}}
+{"timestamp":58182435,"category":"nimbus_events","name":"enrollment","extra":{"branch":"delivery","experiment_type":"nimbus","experiment":"long-term-holdback-2024-h1-velocity-desktop","glean_timestamp":"1718044674600"}}
+{"timestamp":58182446,"category":"nimbus_events","name":"enrollment","extra":{"experiment_type":"rollout","experiment":"consolidated-search-configuration-row-desktop-relaunch","branch":"rollout","glean_timestamp":"1718044674611"}}
+{"timestamp":58182454,"category":"nimbus_events","name":"enrollment","extra":{"experiment_type":"rollout","experiment":"recommend-add-ons-staff-pick-relaunch-treatment-a-rollout","glean_timestamp":"1718044674619","branch":"treatment-a"}}
+{"timestamp":58182463,"category":"nimbus_events","name":"enrollment","extra":{"experiment_type":"nimbus","experiment":"discovery-of-search-sap-early-day-en","branch":"treatment-a","glean_timestamp":"1718044674628"}}
+{"timestamp":58182475,"category":"nimbus_events","name":"enrollment","extra":{"branch":"treatment-c","experiment_type":"nimbus","glean_timestamp":"1718044674639","experiment":"fx-view-discoverability-early-day-users"}}

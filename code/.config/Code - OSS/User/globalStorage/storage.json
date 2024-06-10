@@ -6,7 +6,7 @@
             "file:///home/j/dsc/learnml": "__default__profile__"
         },
         "emptyWindows": {
-            "1717943357952": "__default__profile__"
+            "1718035271555": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -21,24 +21,25 @@
         ],
         "emptyWindows": [
             {
-                "backupFolder": "1717943357952"
+                "backupFolder": "1718035271555"
             }
         ]
     },
     "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "themeBackground": "#1e1e2e",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "activityBarBackground": "#181818",
-            "sideBarBackground": "#181818",
-            "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#cdd6f4",
+            "background": "#1e1e2e",
+            "editorBackground": "#1e1e2e",
+            "titleBarBackground": "#11111b",
+            "activityBarBackground": "#11111b",
+            "sideBarBackground": "#181825",
+            "statusBarBackground": "#11111b",
+            "statusBarNoFolderBackground": "#11111b",
+            "windowBorder": "rgba(0, 0, 0, 0)"
         },
         "layoutInfo": {
             "sideBarSide": "left",
@@ -117,6 +118,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/j/--ozone-platform-hint%3Dwayland",
+                                        "path": "/home/j/--ozone-platform-hint=wayland",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/--ozone-platform-hint=wayland"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -1717,12 +1729,12 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/j/.config/Code - OSS/Backups/1717943357952",
+            "backupPath": "/home/j/.config/Code - OSS/Backups/1718035271555",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 960,
+                "width": 1920,
                 "height": 1080
             }
         },
