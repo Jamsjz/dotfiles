@@ -23,3 +23,6 @@
 2024-06-10 21:46:12.193 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2024-06-10 21:46:12.205 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
 2024-06-10 21:46:13.134 [error] Error: ENOENT: no such file or directory, open '/home/j/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2024-06-11 01:10:16.301 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-11 01:10:16.323 [error] Error: ENOENT: no such file or directory, open '/home/j/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2024-06-11 01:10:16.324 [info] Extension host with pid 85859 exiting with code 0

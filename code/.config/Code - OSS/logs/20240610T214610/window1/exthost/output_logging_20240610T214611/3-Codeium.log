@@ -80,3 +80,8 @@ E0610 23:37:18.372898 85919 unleash.go:60] Unleash error: Get "https://unleash.c
 E0610 23:38:18.372137 85919 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
 2024-06-11 00:41:16.414 [INFO]: [Language Server (stderr)]:
 E0611 00:41:16.414291 85919 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": dial tcp: lookup unleash.codeium.com: no such host
+2024-06-11 01:10:16.313 [INFO]: Disposing language server process
+2024-06-11 01:10:16.313 [INFO]: Deleting manager directory: /tmp/97acaf80-cb09-4290-8635-ffc099b115eb/codeium/manager
+2024-06-11 01:10:16.316 [INFO]: Successfully disposed language server
+2024-06-11 01:10:16.323 [INFO]: [Language Server (stderr)]:
+W0611 01:10:16.314756 85902 main.go:114] Language server manager got signal terminated, shutting down
