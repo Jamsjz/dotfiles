@@ -121,17 +121,16 @@ end
 #
 
 abbr --erase z &>/dev/null
-alias z=__zoxide_z
+alias j=__zoxide_z
 
 abbr --erase zi &>/dev/null
-alias zi=__zoxide_zi
+alias ji=__zoxide_zi
 
 # =============================================================================
 #
 # To initialize zoxide, add this to your configuration (usually
 # ~/.config/fish/config.fish):
 #
-#   zoxide init fish | source
 
 
 
@@ -141,4 +140,5 @@ fish_add_path /home/j/.cargo/bin/
 
 
 
+zoxide init fish | source
 starship init fish | source

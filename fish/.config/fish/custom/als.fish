@@ -107,3 +107,5 @@ alias mkdir='mkdir -p'
 alias ssh='kitten ssh'
 
 alias lg='lazygit --use-config-file="<config-dir>/config.yml,mocha.yml"'
+
+alias nv.p='NVIM_APPNAME=nvim-primeagen nvim'
