@@ -1,0 +1,28 @@
+2024-06-11 18:38:15.174 [info] Extension host with pid 32033 started
+2024-06-11 18:38:15.217 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-06-11 18:38:15.270 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-06-11 18:38:15.274 [info] ExtensionService#_doActivateExtension mlplatform.ml-kernel, startup: true, activationEvent: '*'
+2024-06-11 18:38:15.367 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-06-11 18:38:15.388 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-06-11 18:38:15.432 [info] Eager extensions activated
+2024-06-11 18:38:15.433 [error] TypeError: Cannot read properties of undefined (reading 'webview')
+	at n.value (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:144040)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:82:881)
+	at t.<anonymous> (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:123272)
+	at /home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:120148
+	at Object.next (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:120253)
+	at a (/home/j/.vscode-oss/extensions/mlplatform.ml-kernel-0.0.7-universal/dist/extension.js:2:118990)
+2024-06-11 18:38:15.452 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-06-11 18:38:15.454 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-06-11 18:38:15.460 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-06-11 18:38:15.464 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-06-11 18:38:15.556 [info] ExtensionService#_doActivateExtension Codeium.codeium, startup: false, activationEvent: 'onStartupFinished'
+2024-06-11 18:38:15.719 [info] ExtensionService#_doActivateExtension formulahendry.code-runner, startup: false, activationEvent: 'onStartupFinished'
+2024-06-11 18:38:15.737 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2024-06-11 18:38:15.967 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-11 18:38:15.989 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-06-11 18:38:16.838 [error] Error: ENOENT: no such file or directory, open '/home/j/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2024-06-11 18:38:47.855 [info] Extension host terminating: renderer closed the MessagePort
+2024-06-11 18:38:47.866 [error] Error: ENOENT: no such file or directory, open '/home/j/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2024-06-11 18:38:47.867 [info] Extension host with pid 32033 exiting with code 0

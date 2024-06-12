@@ -1,6 +1,6 @@
-;; (setq doom-theme 'catppuccin)
-(setq doom-theme 'doom-gruvbox)
-(setq doom-gruvbox-contrast 'hard)
+(setq doom-theme 'catppuccin)
+;; (setq doom-theme 'doom-gruvbox)
+;;(setq doom-gruvbox-contrast 'hard)
 
 (setq display-line-numbers-type 'relative)
 

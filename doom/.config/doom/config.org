@@ -41,9 +41,9 @@ Gruvbox is default with hard contrast.
 >>> Needs package catppuccin
 
 #+begin_src elisp
-;; (setq doom-theme 'catppuccin)
-(setq doom-theme 'doom-gruvbox)
-(setq doom-gruvbox-contrast 'hard)
+(setq doom-theme 'catppuccin)
+;; (setq doom-theme 'doom-gruvbox)
+;;(setq doom-gruvbox-contrast 'hard)
 #+end_src
 ** LINE EDITING
 The line number are relative. One could cycle

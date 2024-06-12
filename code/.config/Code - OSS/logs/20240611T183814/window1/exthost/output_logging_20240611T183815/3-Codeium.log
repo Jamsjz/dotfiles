@@ -1,0 +1,265 @@
+2024-06-11 18:38:16.103 [INFO]: No proxy settings found
+2024-06-11 18:38:17.477 [ERROR]: [unavailable] getaddrinfo ENOTFOUND server.codeium.com
+2024-06-11 18:38:17.478 [ERROR]: Failed to get user status from API server [unavailable] getaddrinfo ENOTFOUND server.codeium.com
+2024-06-11 18:38:17.482 [INFO]: Creating manager directory: /tmp/4396f73b-5477-4dbb-ab0c-014d13f2bf5d/codeium/manager
+2024-06-11 18:38:17.607 [ERROR]: [unavailable] getaddrinfo ENOTFOUND server.codeium.com
+2024-06-11 18:38:17.722 [INFO]: Using cached LS with valid crc32: /home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/42fbd33713da99925455bf873cebc46d05a18a4d/language_server_linux_x64
+2024-06-11 18:38:17.728 [INFO]: Language server started
+2024-06-11 18:38:17.898 [INFO]: [Language Server (stderr)]:
+I0611 18:38:17.896549 32255 main.go:558] Starting language server manager with pid 32255
+I0611 18:38:17.896808 32255 main.go:110] Manager acquired its lock file /tmp/4396f73b-5477-4dbb-ab0c-014d13f2bf5d/codeium/manager/locks/manager.lock
+2024-06-11 18:38:17.899 [INFO]: [Language Server (stderr)]:
+I0611 18:38:17.898106 32255 main.go:248] Waiting for random port file in /tmp/4396f73b-5477-4dbb-ab0c-014d13f2bf5d/codeium/manager/child_random_port_1718110397896980826_2905828049985842504 to be created
+2024-06-11 18:38:18.041 [INFO]: [Language Server (stderr)]:
+I0611 18:38:18.040357 32266 main.go:552] Starting language server process with pid 32266
+I0611 18:38:18.040418 32266 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0611 18:38:18.040554 32266 server.go:163] Language server listening on random port at 37107
+2024-06-11 18:38:18.041 [INFO]: [Language Server (stderr)]:
+I0611 18:38:18.040640 32266 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0611 18:38:18.040671 32266 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0611 18:38:18.040703 32266 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-06-11 18:38:18.078 [INFO]: [Language Server (stderr)]:
+I0611 18:38:18.077662 32266 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:38:18.077689 32266 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (3 left)
+2024-06-11 18:38:18.196 [INFO]: [Language Server (stderr)]:
+I0611 18:38:18.195691 32266 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:38:18.195738 32266 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (2 left)
+2024-06-11 18:38:18.314 [INFO]: [Language Server (stderr)]:
+I0611 18:38:18.313560 32266 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:38:18.313628 32266 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (1 left)
+2024-06-11 18:38:18.429 [INFO]: [Language Server (stderr)]:
+I0611 18:38:18.428686 32266 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+W0611 18:38:18.428718 32266 proxy.go:128] proxy failed to connect: GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions giving up after 4 attempt(s): Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:38:18.428731 32266 unleash.go:90] Initializing Unleash
+2024-06-11 18:38:19.785 [INFO]: [Language Server (stderr)]:
+I0611 18:38:19.785143 32266 unleash.go:110] Successfully initialized Unleash
+2024-06-11 18:38:19.792 [INFO]: [Language Server (stderr)]:
+E0611 18:38:19.791930 32266 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+2024-06-11 18:38:19.821 [INFO]: [Language Server (stderr)]:
+E0611 18:38:19.820985 32266 api_server_client.go:235] GetConfig error: unavailable: dial tcp: lookup server.codeium.com: no such host
+2024-06-11 18:38:19.822 [INFO]: [Language Server (stderr)]:
+F0611 18:38:19.821078 32266 main.go:555] Language server failed - unavailable: dial tcp: lookup server.codeium.com: no such host
+(1) attached stack trace
+  -- stack trace:
+  | github.com/Exafunction/Exafunction/exa/language_server.CreateLanguageServerAndServe
+  | 	exa/language_server/server.go:167
+  | [...repeated from below...]
+Wraps: (2) attached stack trace
+  -- stack trace:
+  | github.com/Exafunction/Exafunction/exa/language_server.initServers
+  | 	exa/language_server/server.go:353
+  | github.com/Exafunction/Exafunction/exa/language_server.CreateLanguageServerAndServe
+  | 	exa/language_server/server.go:165
+  | main.main
+  | 	exa/cmd/language_server/main.go:553
+  | runtime.main
+  | 	GOROOT/src/runtime/proc.go:267
+  | runtime.goexit
+  | 	src/runtime/asm_amd64.s:1650
+Wraps: (3) unavailable
+Wraps: (4) dial tcp
+Wraps: (5) lookup server.codeium.com: no such host
+Error types: (1) *withstack.withStack (2) *withstack.withStack (3) *connect.Error (4) *net.OpError (5) *net.DNSError
+2024-06-11 18:38:32.977 [INFO]: [Language Server (stderr)]:
+I0611 18:38:32.976959 32255 main.go:279] Failed to get random ports within 15 seconds
+2024-06-11 18:38:32.978 [INFO]: [Language Server (stderr)]:
+I0611 18:38:32.977268 32255 cmd_wrapper.go:267] LanguageServer exited with: exit code: 1
+2024-06-11 18:38:32.979 [INFO]: [Language Server (stderr)]:
+I0611 18:38:32.978096 32255 main.go:248] Waiting for random port file in /tmp/4396f73b-5477-4dbb-ab0c-014d13f2bf5d/codeium/manager/child_random_port_1718110412977337604_7305091247682003313 to be created
+2024-06-11 18:38:33.124 [INFO]: [Language Server (stderr)]:
+I0611 18:38:33.123853 32384 main.go:552] Starting language server process with pid 32384
+I0611 18:38:33.123916 32384 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0611 18:38:33.124036 32384 server.go:163] Language server listening on random port at 44379
+2024-06-11 18:38:33.125 [INFO]: [Language Server (stderr)]:
+I0611 18:38:33.124086 32384 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0611 18:38:33.124101 32384 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0611 18:38:33.124123 32384 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-06-11 18:38:33.172 [INFO]: [Language Server (stderr)]:
+I0611 18:38:33.170500 32384 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:38:33.170593 32384 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (3 left)
+2024-06-11 18:38:33.289 [INFO]: [Language Server (stderr)]:
+I0611 18:38:33.288876 32384 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:38:33.289092 32384 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (2 left)
+2024-06-11 18:38:33.409 [INFO]: [Language Server (stderr)]:
+I0611 18:38:33.407845 32384 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:38:33.407894 32384 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (1 left)
+2024-06-11 18:38:33.526 [INFO]: [Language Server (stderr)]:
+I0611 18:38:33.525463 32384 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+2024-06-11 18:38:33.527 [INFO]: [Language Server (stderr)]:
+W0611 18:38:33.525555 32384 proxy.go:128] proxy failed to connect: GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions giving up after 4 attempt(s): Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:38:33.525834 32384 unleash.go:90] Initializing Unleash
+2024-06-11 18:38:34.499 [INFO]: [Language Server (stderr)]:
+I0611 18:38:34.498280 32384 unleash.go:110] Successfully initialized Unleash
+2024-06-11 18:38:34.511 [INFO]: [Language Server (stderr)]:
+E0611 18:38:34.511090 32384 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+2024-06-11 18:38:34.527 [INFO]: [Language Server (stderr)]:
+E0611 18:38:34.527025 32384 api_server_client.go:235] GetConfig error: unavailable: dial tcp: lookup server.codeium.com: no such host
+2024-06-11 18:38:34.528 [INFO]: [Language Server (stderr)]:
+F0611 18:38:34.527091 32384 main.go:555] Language server failed - unavailable: dial tcp: lookup server.codeium.com: no such host
+(1) attached stack trace
+  -- stack trace:
+  | github.com/Exafunction/Exafunction/exa/language_server.CreateLanguageServerAndServe
+  | 	exa/language_server/server.go:167
+  | [...repeated from below...]
+Wraps: (2) attached stack trace
+  -- stack trace:
+  | github.com/Exafunction/Exafunction/exa/language_server.initServers
+  | 	exa/language_server/server.go:353
+  | github.com/Exafunction/Exafunction/exa/language_server.CreateLanguageServerAndServe
+  | 	exa/language_server/server.go:165
+  | main.main
+  | 	exa/cmd/language_server/main.go:553
+  | runtime.main
+  | 	GOROOT/src/runtime/proc.go:267
+  | runtime.goexit
+  | 	src/runtime/asm_amd64.s:1650
+Wraps: (3) unavailable
+Wraps: (4) dial tcp
+Wraps: (5) lookup server.codeium.com: no such host
+Error types: (1) *withstack.withStack (2) *withstack.withStack (3) *connect.Error (4) *net.OpError (5) *net.DNSError
+2024-06-11 18:38:48.056 [INFO]: [Language Server (stderr)]:
+I0611 18:38:48.055693 32255 main.go:279] Failed to get random ports within 15 seconds
+2024-06-11 18:38:48.057 [INFO]: [Language Server (stderr)]:
+I0611 18:38:48.056043 32255 cmd_wrapper.go:267] LanguageServer exited with: exit code: 1
+I0611 18:38:48.056531 32255 main.go:248] Waiting for random port file in /tmp/4396f73b-5477-4dbb-ab0c-014d13f2bf5d/codeium/manager/child_random_port_1718110428056084943_757355296509485624 to be created
+2024-06-11 18:38:48.203 [INFO]: [Language Server (stderr)]:
+I0611 18:38:48.203134 32455 main.go:552] Starting language server process with pid 32455
+I0611 18:38:48.203184 32455 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0611 18:38:48.203298 32455 server.go:163] Language server listening on random port at 38811
+I0611 18:38:48.203355 32455 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0611 18:38:48.203377 32455 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+2024-06-11 18:38:48.204 [INFO]: [Language Server (stderr)]:
+I0611 18:38:48.203395 32455 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-06-11 18:38:48.227 [INFO]: [Language Server (stderr)]:
+I0611 18:38:48.226677 32455 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:38:48.226746 32455 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (3 left)
+2024-06-11 18:38:48.345 [INFO]: [Language Server (stderr)]:
+I0611 18:38:48.343947 32455 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:38:48.344036 32455 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (2 left)
+2024-06-11 18:38:48.489 [INFO]: [Language Server (stderr)]:
+I0611 18:38:48.488383 32455 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+2024-06-11 18:38:48.490 [INFO]: [Language Server (stderr)]:
+I0611 18:38:48.488450 32455 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (1 left)
+2024-06-11 18:38:48.609 [INFO]: [Language Server (stderr)]:
+I0611 18:38:48.608866 32455 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+W0611 18:38:48.608967 32455 proxy.go:128] proxy failed to connect: GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions giving up after 4 attempt(s): Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:38:48.609018 32455 unleash.go:90] Initializing Unleash
+2024-06-11 18:38:49.662 [INFO]: [Language Server (stderr)]:
+I0611 18:38:49.661097 32455 unleash.go:110] Successfully initialized Unleash
+2024-06-11 18:38:49.674 [INFO]: [Language Server (stderr)]:
+E0611 18:38:49.673737 32455 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+2024-06-11 18:38:49.687 [INFO]: [Language Server (stderr)]:
+E0611 18:38:49.686607 32455 api_server_client.go:235] GetConfig error: unavailable: dial tcp: lookup server.codeium.com: no such host
+2024-06-11 18:38:49.688 [INFO]: [Language Server (stderr)]:
+F0611 18:38:49.686677 32455 main.go:555] Language server failed - unavailable: dial tcp: lookup server.codeium.com: no such host
+(1) attached stack trace
+  -- stack trace:
+  | github.com/Exafunction/Exafunction/exa/language_server.CreateLanguageServerAndServe
+  | 	exa/language_server/server.go:167
+  | [...repeated from below...]
+Wraps: (2) attached stack trace
+  -- stack trace:
+  | github.com/Exafunction/Exafunction/exa/language_server.initServers
+  | 	exa/language_server/server.go:353
+  | github.com/Exafunction/Exafunction/exa/language_server.CreateLanguageServerAndServe
+  | 	exa/language_server/server.go:165
+  | main.main
+  | 	exa/cmd/language_server/main.go:553
+  | runtime.main
+  | 	GOROOT/src/runtime/proc.go:267
+  | runtime.goexit
+  | 	src/runtime/asm_amd64.s:1650
+Wraps: (3) unavailable
+Wraps: (4) dial tcp
+Wraps: (5) lookup server.codeium.com: no such host
+Error types: (1) *withstack.withStack (2) *withstack.withStack (3) *connect.Error (4) *net.OpError (5) *net.DNSError
+2024-06-11 18:39:03.143 [INFO]: [Language Server (stderr)]:
+I0611 18:39:03.142032 32255 main.go:279] Failed to get random ports within 15 seconds
+2024-06-11 18:39:03.144 [INFO]: [Language Server (stderr)]:
+I0611 18:39:03.142617 32255 cmd_wrapper.go:267] LanguageServer exited with: exit code: 1
+I0611 18:39:03.143768 32255 main.go:248] Waiting for random port file in /tmp/4396f73b-5477-4dbb-ab0c-014d13f2bf5d/codeium/manager/child_random_port_1718110443142785217_1234848967608792249 to be created
+2024-06-11 18:39:03.281 [INFO]: [Language Server (stderr)]:
+I0611 18:39:03.281138 32488 main.go:552] Starting language server process with pid 32488
+I0611 18:39:03.281183 32488 server.go:156] Language server will attempt to listen on host 127.0.0.1
+I0611 18:39:03.281292 32488 server.go:163] Language server listening on random port at 45875
+I0611 18:39:03.281351 32488 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0611 18:39:03.281373 32488 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0611 18:39:03.281388 32488 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-06-11 18:39:03.375 [INFO]: [Language Server (stderr)]:
+I0611 18:39:03.374389 32488 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:39:03.374454 32488 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (3 left)
+2024-06-11 18:39:03.579 [INFO]: [Language Server (stderr)]:
+I0611 18:39:03.577822 32488 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:39:03.577886 32488 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (2 left)
+2024-06-11 18:39:03.697 [INFO]: [Language Server (stderr)]:
+I0611 18:39:03.696631 32488 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:39:03.696735 32488 client.go:690] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions: retrying in 100ms (1 left)
+2024-06-11 18:39:03.840 [INFO]: [Language Server (stderr)]:
+I0611 18:39:03.839184 32488 client.go:646] [ERR] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions request failed: Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+W0611 18:39:03.839270 32488 proxy.go:128] proxy failed to connect: GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions giving up after 4 attempt(s): Get "https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions": dial tcp: lookup server.codeium.com: no such host
+I0611 18:39:03.839308 32488 unleash.go:90] Initializing Unleash
+2024-06-11 18:39:04.814 [INFO]: [Language Server (stderr)]:
+I0611 18:39:04.813871 32488 unleash.go:110] Successfully initialized Unleash
+2024-06-11 18:39:04.825 [INFO]: [Language Server (stderr)]:
+E0611 18:39:04.824407 32488 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+2024-06-11 18:39:06.146 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.145207 32488 server.go:355] Successfully created API server client
+2024-06-11 18:39:06.172 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.171202 32488 server.go:364] Successfully initialized tokenizer
+2024-06-11 18:39:06.239 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.238216 32488 server.go:471] Local search is enabled, will index local files.
+I0611 18:39:06.238252 32488 server.go:475] Using 3 indexer workers
+I0611 18:39:06.238294 32488 search_provider.go:193] Using database at /home/j/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-06-11 18:39:06.239 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.239101 32488 database.go:123] Bad db state detected: false
+2024-06-11 18:39:06.240 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.239710 32488 search_provider.go:207] Successfully created embedding search database in 1ms
+2024-06-11 18:39:06.240 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.240059 32488 search_provider.go:229] Successfully created and started indexer
+I0611 18:39:06.240078 32488 search_provider.go:255] Successfully created embedding search provider
+I0611 18:39:06.240083 32488 server.go:510] Successfully created exact search provider
+2024-06-11 18:39:06.244 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.243687 32488 server.go:540] Successfully created completion provider
+I0611 18:39:06.243733 32488 server.go:589] Child process attempting to acquire lock file /tmp/4396f73b-5477-4dbb-ab0c-014d13f2bf5d/codeium/manager/locks/child_lock_1718110443142856313_4591693832273195793
+I0611 18:39:06.243775 32488 server.go:597] Child process acquired lock file /tmp/4396f73b-5477-4dbb-ab0c-014d13f2bf5d/codeium/manager/locks/child_lock_1718110443142856313_4591693832273195793
+2024-06-11 18:39:06.250 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.249657 32488 server.go:183] LSP listening on random port at 36631
+2024-06-11 18:39:06.251 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.250030 32488 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:33669
+2024-06-11 18:39:06.262 [INFO]: [Language Server (stdout)]:
+36631
+2024-06-11 18:39:06.263 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.262378 32255 main.go:284] Language server manager found random server port 45875
+I0611 18:39:06.262406 32255 main.go:285] Language server manager found random lsp port 36631
+I0611 18:39:06.262421 32255 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:45875
+2024-06-11 18:39:06.284 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.284335 32255 main.go:337] Successfully sent 3 previous error traces
+I0611 18:39:06.284423 32255 main.go:163] Fixing language server port at 45875
+I0611 18:39:06.284431 32255 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:45875
+2024-06-11 18:39:06.298 [INFO]: Found language server running on port 45875
+2024-06-11 18:39:06.308 [INFO]: Downloaded binary: /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-11 18:39:06.317 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.315977 32488 rpcs_miscellaneous.go:118] Ripgrep available at /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-11 18:39:06.653 [INFO]: [Language Server (stderr)]:
+I0611 18:39:06.651884 32488 rpcs_miscellaneous.go:312] University version is up to date.
+2024-06-11 18:39:35.194 [INFO]: [Language Server (stderr)]:
+I0611 18:39:35.193517 32488 api.go:343] Handle set draft query: ""
+2024-06-11 18:39:50.683 [INFO]: [Language Server (stderr)]:
+I0611 18:39:50.681668 32488 api.go:343] Handle set draft query: {"ops":[{"insert":"how to use the neovim \n"}]}
+2024-06-11 18:40:03.402 [INFO]: [Language Server (stderr)]:
+I0611 18:40:03.402092 32488 api.go:343] Handle set draft query: 
+2024-06-11 18:40:06.407 [INFO]: [Language Server (stderr)]:
+I0611 18:40:06.406905 32488 api.go:343] Handle set draft query: {"ops":[{"insert":"\n"}]}
+2024-06-11 18:40:26.090 [INFO]: [Language Server (stderr)]:
+I0611 18:40:26.089361 32488 api.go:343] Handle set draft query: {"ops":[{"insert":"\n"}]}
+2024-06-11 18:41:05.841 [INFO]: [Language Server (stderr)]:
+E0611 18:41:05.840120 32488 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-11 18:41:05.844 [INFO]: [Language Server (stderr)]:
+E0611 18:41:05.843352 32488 unleash.go:60] Unleash error: Post "https://unleash.codeium.com/api/client/metrics": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-11 18:43:05.842 [INFO]: [Language Server (stderr)]:
+E0611 18:43:05.841327 32488 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": context deadline exceeded (Client.Timeout exceeded while awaiting headers)
+2024-06-11 18:44:11.893 [INFO]: Disposing language server process
+2024-06-11 18:44:11.894 [INFO]: Deleting manager directory: /tmp/4396f73b-5477-4dbb-ab0c-014d13f2bf5d/codeium/manager
+2024-06-11 18:44:11.896 [INFO]: Successfully disposed language server
+2024-06-11 18:44:11.908 [INFO]: [Language Server (stderr)]:
+W0611 18:44:11.895603 32255 main.go:114] Language server manager got signal terminated, shutting down

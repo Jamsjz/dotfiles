@@ -1,0 +1,30 @@
+2024-06-11 18:38:16.158 [info] Log level: Info
+2024-06-11 18:38:16.158 [info] Validating found git in: "git"
+2024-06-11 18:38:16.158 [info] Using git "2.45.2" from "git"
+2024-06-11 18:38:16.158 [info] > git rev-parse --show-toplevel [8ms]
+2024-06-11 18:38:16.158 [info] > git rev-parse --git-dir --git-common-dir [38ms]
+2024-06-11 18:38:16.158 [info] Open repository: /home/j/.config/LazyVim
+2024-06-11 18:38:16.164 [info] > git rev-parse --show-toplevel [8ms]
+2024-06-11 18:38:16.164 [info] > git config --get commit.template [14ms]
+2024-06-11 18:38:16.183 [info] > git rev-parse --show-toplevel [11ms]
+2024-06-11 18:38:16.192 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [11ms]
+2024-06-11 18:38:16.199 [warning] ENOENT: no such file or directory, open '/home/j/.config/LazyVim/.git/refs/remotes/origin/main'
+2024-06-11 18:38:16.199 [info] > git rev-parse --show-toplevel [7ms]
+2024-06-11 18:38:16.209 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2024-06-11 18:38:16.217 [info] > git rev-parse --show-toplevel [9ms]
+2024-06-11 18:38:16.225 [info] > git status -z -uall [8ms]
+2024-06-11 18:38:16.244 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2024-06-11 18:38:16.250 [info] > git rev-parse --show-toplevel [27ms]
+2024-06-11 18:38:16.274 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [24ms]
+2024-06-11 18:38:16.280 [info] > git config --get commit.template [35ms]
+2024-06-11 18:38:16.323 [info] > git diff --name-status -z --diff-filter=ADMR 26e3e39f2eb1251841f5574f29c7eecb55fef816...refs/remotes/origin/main [44ms]
+2024-06-11 18:38:16.367 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-06-11 18:38:16.371 [warning] ENOENT: no such file or directory, open '/home/j/.config/LazyVim/.git/refs/remotes/origin/main'
+2024-06-11 18:38:16.375 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-06-11 18:38:16.393 [info] > git status -z -uall [13ms]
+2024-06-11 18:38:16.711 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-11 18:40:13.493 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-11 18:40:15.126 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-11 18:40:16.449 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-11 18:40:17.602 [info] > git check-ignore -v -z --stdin [2ms]
+2024-06-11 18:40:18.653 [info] > git check-ignore -v -z --stdin [2ms]

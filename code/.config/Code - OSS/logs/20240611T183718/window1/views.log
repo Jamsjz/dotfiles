@@ -1,0 +1,17 @@
+2024-06-11 18:37:19.208 [info] Added views:workbench.panel.markers.view in workbench.panel.markers
+2024-06-11 18:37:19.209 [info] Added views:workbench.panel.output in workbench.panel.output
+2024-06-11 18:37:19.209 [info] Added views:terminal in terminal
+2024-06-11 18:37:19.209 [info] Added views:outline in workbench.view.explorer
+2024-06-11 18:37:19.209 [info] Added views:workbench.scm in workbench.view.scm
+2024-06-11 18:37:19.209 [info] Added views:workbench.view.search in workbench.view.search
+2024-06-11 18:37:19.209 [info] Added views:timeline in workbench.view.explorer
+2024-06-11 18:37:19.209 [info] Added views:workbench.explorer.emptyView in workbench.view.explorer
+2024-06-11 18:37:19.288 [info] Added views:workbench.debug.variablesView,workbench.debug.watchExpressionsView,workbench.debug.callStackView,workbench.debug.breakPointsView in workbench.view.debug
+2024-06-11 18:37:19.461 [info] Added views:codeium.chatPanelView,codeium.searchPanelView in workbench.view.extension.codeium
+2024-06-11 18:37:19.461 [info] Added views:ipyNavigator in workbench.view.extension.ipy-navigator
+2024-06-11 18:37:19.461 [info] Added views:volc.kernel.view,volc.spark.view,volc.help.view in workbench.view.extension.volc-kernel
+2024-06-11 18:37:19.671 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2024-06-11 18:37:19.672 [info] Removed views:workbench.debug.breakPointsView,workbench.debug.callStackView,workbench.debug.watchExpressionsView,workbench.debug.variablesView from workbench.view.debug
+2024-06-11 18:37:19.673 [info] Added views:workbench.debug.welcome in workbench.view.debug
+2024-06-11 18:37:19.870 [info] Added views:~remote.forwardedPorts in ~remote.forwardedPortsContainer
+2024-06-11 18:37:22.263 [info] Added views:workbench.panel.comments in workbench.panel.comments

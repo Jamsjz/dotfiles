@@ -3,10 +3,11 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/j/dsc": "__default__profile__",
-            "file:///home/j/dsc/learnml": "__default__profile__"
+            "file:///home/j/dsc/learnml": "__default__profile__",
+            "file:///home/j/.config/LazyVim": "__default__profile__"
         },
         "emptyWindows": {
-            "1718035271555": "__default__profile__"
+            "1718110380873": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -17,11 +18,14 @@
         "folders": [
             {
                 "folderUri": "file:///home/j/dsc/learnml"
+            },
+            {
+                "folderUri": "file:///home/j/.config/LazyVim"
             }
         ],
         "emptyWindows": [
             {
-                "backupFolder": "1718035271555"
+                "backupFolder": "1718110380873"
             }
         ]
     },
@@ -46,7 +50,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 0,
+            "sideBarWidth": 287,
             "statusBarHeight": 0,
             "windowBorder": false
         }
@@ -123,12 +127,12 @@
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/j/--ozone-platform-hint%3Dwayland",
-                                        "path": "/home/j/--ozone-platform-hint=wayland",
+                                        "external": "file:///home/j/.config/LazyVim/--ozone-platform-hint%3Dwayland",
+                                        "path": "/home/j/.config/LazyVim/--ozone-platform-hint=wayland",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/--ozone-platform-hint=wayland"
+                                    "label": "~/.config/LazyVim/--ozone-platform-hint=wayland"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -199,6 +203,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -327,6 +338,10 @@
                         "id": "workbench.action.closeActiveEditor",
                         "label": "&&Close Editor",
                         "enabled": false
+                    },
+                    {
+                        "id": "workbench.action.closeFolder",
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -523,7 +538,8 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar"
+                                    "label": "&&Primary Side Bar",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -1356,6 +1372,11 @@
                 "label": "Ctrl+W",
                 "userSettingsLabel": "ctrl+w"
             },
+            "workbench.action.closeFolder": {
+                "label": "Ctrl+K F",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k f"
+            },
             "workbench.action.closeWindow": {
                 "label": "Alt+F4",
                 "userSettingsLabel": "alt+f4"
@@ -1729,12 +1750,13 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/j/.config/Code - OSS/Backups/1718035271555",
+            "folder": "file:///home/j/.config/LazyVim",
+            "backupPath": "/home/j/.config/Code - OSS/Backups/6d2ae350a65400338ad7bbb16006a306",
             "uiState": {
                 "mode": 0,
                 "x": 0,
                 "y": 0,
-                "width": 1920,
+                "width": 960,
                 "height": 1080
             }
         },

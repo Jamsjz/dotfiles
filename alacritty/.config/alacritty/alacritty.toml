@@ -29,3 +29,8 @@ program = "/usr/bin/fish"
 
 [window]
 decorations = 'None'
+
+[[keyboard.bindings]]
+key = "Back"
+mods = "Command"
+chars = "\u0015"

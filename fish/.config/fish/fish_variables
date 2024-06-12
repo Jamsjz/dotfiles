@@ -98,7 +98,7 @@ SETUVAR fish_pager_color_description:yellow\x1e\x2di
 SETUVAR fish_pager_color_prefix:normal\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
 SETUVAR fish_pager_color_selected_background:\x2dr
-SETUVAR fish_user_paths:/home/j/\x2ecargo/bin\x1e/home/j/anaconda3/bin\x1e/usr/include/tre\x1e/usr/include\x1e/opt/miniconda3/bin
+SETUVAR fish_user_paths:/home/j/\x2elocal/bin\x1e/home/j/\x2ecargo/bin\x1e/home/j/anaconda3/bin\x1e/usr/include/tre\x1e/usr/include\x1e/opt/miniconda3/bin
 SETUVAR tide_aws_bg_color:FF9900
 SETUVAR tide_aws_color:232F3E
 SETUVAR tide_aws_icon:\uf270

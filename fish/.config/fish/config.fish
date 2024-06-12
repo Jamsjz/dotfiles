@@ -137,7 +137,15 @@ alias ji=__zoxide_zi
 # add path
 fish_add_path /home/j/anaconda3/bin/
 fish_add_path /home/j/.cargo/bin/
-
+fish_add_path /home/j/.local/bin
+# Check if tmux is already running
+# if tmux list-sessions &>/dev/null
+#     # If tmux is running, try attaching to session named 'home'
+#     tmux attach-session -t home || tmux new-session -s home
+# else
+#     # If tmux is not running, start a new session named 'home'
+#     tmux new-session -s home
+# end
 
 
 zoxide init fish | source
