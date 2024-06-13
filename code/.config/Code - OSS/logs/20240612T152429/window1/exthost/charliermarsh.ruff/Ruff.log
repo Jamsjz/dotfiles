@@ -1,0 +1,98 @@
+2024-06-12 15:25:09.954 [info] Name: Ruff
+2024-06-12 15:25:09.954 [info] Module: ruff
+2024-06-12 15:25:09.954 [info] Python extension loading
+2024-06-12 15:25:09.954 [info] Waiting for interpreter from python extension.
+2024-06-12 15:25:10.118 [info] Python extension loaded
+2024-06-12 15:25:10.131 [info] Server run command: /bin/python /home/j/.vscode-oss/extensions/charliermarsh.ruff-2024.24.0-linux-x64/bundled/tool/server.py
+2024-06-12 15:25:10.132 [info] Server: Start requested.
+2024-06-12 15:25:10.669 [info] 2024-06-12 15:25:10,669 INFO Starting IO server
+
+2024-06-12 15:25:10.700 [info] Workspace settings: [
+    {
+        "nativeServer": false,
+        "cwd": "/home/j/dsc/prj/logistic regression sonar",
+        "workspace": "file:///home/j/dsc/prj/logistic%20regression%20sonar",
+        "path": [],
+        "ignoreStandardLibrary": true,
+        "interpreter": [
+            "/bin/python"
+        ],
+        "configuration": null,
+        "importStrategy": "fromEnvironment",
+        "codeAction": {
+            "fixViolation": {
+                "enable": true
+            },
+            "disableRuleComment": {
+                "enable": true
+            }
+        },
+        "lint": {
+            "enable": true,
+            "run": "onType",
+            "args": [],
+            "preview": null,
+            "select": null,
+            "extendSelect": null,
+            "ignore": null
+        },
+        "format": {
+            "args": [],
+            "preview": null
+        },
+        "enable": true,
+        "organizeImports": true,
+        "fixAll": true,
+        "showNotifications": "off",
+        "exclude": null,
+        "lineLength": null,
+        "configurationPreference": "editorFirst"
+    }
+]
+2024-06-12 15:25:10.700 [info] Global settings: {
+    "nativeServer": false,
+    "cwd": "/home/j",
+    "workspace": "/home/j",
+    "path": [],
+    "ignoreStandardLibrary": true,
+    "interpreter": [],
+    "configuration": null,
+    "importStrategy": "fromEnvironment",
+    "codeAction": {
+        "fixViolation": {
+            "enable": true
+        },
+        "disableRuleComment": {
+            "enable": true
+        }
+    },
+    "lint": {
+        "enable": true,
+        "run": "onType",
+        "args": []
+    },
+    "format": {
+        "args": []
+    },
+    "enable": true,
+    "organizeImports": true,
+    "fixAll": true,
+    "showNotifications": "off",
+    "configurationPreference": "editorFirst"
+}
+2024-06-12 15:25:12.224 [info] Using interpreter executable: /usr/bin/ruff
+2024-06-12 15:25:12.232 [info] Inferred version 0.4.8 for: /usr/bin/ruff
+2024-06-12 15:25:12.232 [info] Found ruff 0.4.8 at /usr/bin/ruff
+2024-06-12 15:25:12.233 [info] Running Ruff with: /usr/bin/ruff ['check', '--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/j/dsc/prj/logistic regression sonar/rockormine.ipynb']
+2024-06-12 15:26:30.682 [info] Using interpreter executable: /usr/bin/ruff
+2024-06-12 15:26:30.682 [info] Found ruff 0.4.8 at /usr/bin/ruff
+2024-06-12 15:26:30.682 [info] Running Ruff with: /usr/bin/ruff ['check', '--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/j/dsc/prj/logistic regression sonar/rockormine.ipynb']
+2024-06-12 15:26:31.769 [info] Using interpreter executable: /usr/bin/ruff
+2024-06-12 15:26:31.769 [info] Found ruff 0.4.8 at /usr/bin/ruff
+2024-06-12 15:26:31.769 [info] Running Ruff with: /usr/bin/ruff ['check', '--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/j/dsc/prj/logistic regression sonar/rockormine.ipynb']
+2024-06-12 15:26:32.357 [info] Using interpreter executable: /usr/bin/ruff
+2024-06-12 15:26:32.357 [info] Found ruff 0.4.8 at /usr/bin/ruff
+2024-06-12 15:26:32.357 [info] Running Ruff with: /usr/bin/ruff ['check', '--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/j/dsc/prj/logistic regression sonar/rockormine.ipynb']
+2024-06-12 15:26:33.080 [info] Using interpreter executable: /usr/bin/ruff
+2024-06-12 15:26:33.081 [info] Found ruff 0.4.8 at /usr/bin/ruff
+2024-06-12 15:26:33.081 [info] Running Ruff with: /usr/bin/ruff ['check', '--force-exclude', '--no-cache', '--no-fix', '--quiet', '--output-format', 'json', '-', '--stdin-filename', '/home/j/dsc/prj/logistic regression sonar/rockormine.ipynb']

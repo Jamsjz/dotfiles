@@ -4,10 +4,11 @@
         "workspaces": {
             "file:///home/j/dsc": "__default__profile__",
             "file:///home/j/dsc/learnml": "__default__profile__",
-            "file:///home/j/.config/LazyVim": "__default__profile__"
+            "file:///home/j/.config/LazyVim": "__default__profile__",
+            "file:///home/j/dsc/prj/logistic%20regression%20sonar": "__default__profile__"
         },
         "emptyWindows": {
-            "1718110380873": "__default__profile__"
+            "1718185170282": "__default__profile__"
         }
     },
     "profileAssociationsMigration": true,
@@ -20,12 +21,12 @@
                 "folderUri": "file:///home/j/dsc/learnml"
             },
             {
-                "folderUri": "file:///home/j/.config/LazyVim"
+                "folderUri": "file:///home/j/dsc/prj/logistic%20regression%20sonar"
             }
         ],
         "emptyWindows": [
             {
-                "backupFolder": "1718110380873"
+                "backupFolder": "1718185170282"
             }
         ]
     },
@@ -44,15 +45,6 @@
             "statusBarBackground": "#11111b",
             "statusBarNoFolderBackground": "#11111b",
             "windowBorder": "rgba(0, 0, 0, 0)"
-        },
-        "layoutInfo": {
-            "sideBarSide": "left",
-            "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
-            "activityBarWidth": 48,
-            "sideBarWidth": 287,
-            "statusBarHeight": 0,
-            "windowBorder": false
         }
     },
     "lastKnownMenubarData": {
@@ -93,10 +85,22 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/j/dsc/prj/logistic%20regression%20sonar",
+                                        "path": "/home/j/dsc/prj/logistic regression sonar",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/dsc/prj/logistic regression sonar"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -122,6 +126,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/j/--ozone-platform-hint%3Dwayland",
+                                        "path": "/home/j/--ozone-platform-hint=wayland",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/--ozone-platform-hint=wayland"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -182,18 +197,15 @@
                     },
                     {
                         "id": "workbench.action.files.save",
-                        "label": "&&Save",
-                        "enabled": false
+                        "label": "&&Save"
                     },
                     {
                         "id": "workbench.action.files.saveAs",
-                        "label": "Save &&As...",
-                        "enabled": false
+                        "label": "Save &&As..."
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -203,13 +215,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -331,13 +336,11 @@
                     },
                     {
                         "id": "workbench.action.files.revert",
-                        "label": "Re&&vert File",
-                        "enabled": false
+                        "label": "Re&&vert File"
                     },
                     {
                         "id": "workbench.action.closeActiveEditor",
-                        "label": "&&Close Editor",
-                        "enabled": false
+                        "label": "&&Close Editor"
                     },
                     {
                         "id": "workbench.action.closeFolder",
@@ -386,13 +389,11 @@
                     },
                     {
                         "id": "actions.find",
-                        "label": "&&Find",
-                        "enabled": false
+                        "label": "&&Find"
                     },
                     {
                         "id": "editor.action.startFindReplaceAction",
-                        "label": "&&Replace",
-                        "enabled": false
+                        "label": "&&Replace"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -519,7 +520,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.toggleFullScreen",
-                                    "label": "&&Full Screen"
+                                    "label": "&&Full Screen",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleZenMode",
@@ -538,8 +540,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar",
-                                    "checked": true
+                                    "label": "&&Primary Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -824,6 +825,10 @@
                         "label": "E&&xtensions"
                     },
                     {
+                        "id": "workbench.view.extension.test",
+                        "label": "T&&esting"
+                    },
+                    {
                         "id": "vscode.menubar.separator"
                     },
                     {
@@ -847,8 +852,7 @@
                     },
                     {
                         "id": "editor.action.toggleWordWrap",
-                        "label": "&&Word Wrap",
-                        "enabled": false
+                        "label": "&&Word Wrap"
                     }
                 ]
             },
@@ -856,8 +860,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -866,8 +869,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1750,14 +1752,15 @@
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/j/.config/LazyVim",
-            "backupPath": "/home/j/.config/Code - OSS/Backups/6d2ae350a65400338ad7bbb16006a306",
+            "folder": "file:///home/j/dsc/prj/logistic%20regression%20sonar",
+            "backupPath": "/home/j/.config/Code - OSS/Backups/7c0463383e405981b6c04f53b2f02efa",
             "uiState": {
-                "mode": 0,
+                "mode": 3,
+                "display": 52,
+                "width": 1920,
+                "height": 1080,
                 "x": 0,
-                "y": 0,
-                "width": 960,
-                "height": 1080
+                "y": 0
             }
         },
         "openedWindows": []

@@ -1,0 +1,216 @@
+Code - OSS (1.90.0, undefined, desktop)
+Jupyter Extension Version: 2024.5.0.
+Python Extension Version: 2024.4.1.
+Pylance Extension not installed.
+Platform: linux (x64).
+Workspace folder ~/dsc/prj/logistic regression sonar, Home = /home/j
+15:25:12.442 [info] Telemetry level is off
+15:25:12.443 [info] Experiments are disabled, only manually opted experiments are active.
+15:25:12.570 [error] Error in activating extension, failed in By [Error: Extension 'ms-toolsai.~upyter' CANNOT use API proposal: notebookKernelSource.
+Its package.~son#enabledApiProposals-property declares:  but NOT notebookKernelSource.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.~upyter
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:141:57957)
+	at Ob~ect.createNotebookControllerDetectionTask (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:163:46075)
+	at i (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:309:6231)
+	at By.startRefreshWithPython (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:309:6454)
+	at By.activate (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:309:4678)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:383:28858
+	at Array.map (<anonymous>)
+	at kI.activate (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:383:28844)
+	at $Y (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:446:2062)
+	at async ISe (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:448:454)]
+15:25:12.575 [error] Error in activating extension, failed in bb [Error: Extension 'ms-toolsai.~upyter' CANNOT use API proposal: notebookKernelSource.
+Its package.~son#enabledApiProposals-property declares:  but NOT notebookKernelSource.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.~upyter
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:141:57957)
+	at Ob~ect.registerKernelSourceActionProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:163:46210)
+	at bb.activate (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:115154)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:383:28858
+	at Array.map (<anonymous>)
+	at kI.activate (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:383:28844)
+	at $Y (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:446:2062)
+	at async ISe (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:448:454)]
+15:25:12.657 [warn] Failed to attach variable provider [Error: Extension 'ms-toolsai.~upyter' CANNOT use API proposal: notebookVariableProvider.
+Its package.~son#enabledApiProposals-property declares:  but NOT notebookVariableProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.~upyter
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:141:57957)
+	at set variableProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:153:225474)
+	at r.create (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:85881)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99852
+	at Array.forEach (<anonymous>)
+	at mb.addImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99825)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98811
+	at Array.forEach (<anonymous>)
+	at mb.batchAdd (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98781)
+	at mb.createNotebookControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97603)
+	at mb.loadControllersImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97063)
+	at mb.loadControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:96713)
+	at mb.<anonymous> (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:95593)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:881)
+	at n.value (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:295:19835)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:950)
+	at xb.buildDummyEnvironment (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:144069)]
+15:25:12.658 [warn] Failed to attach variable provider [Error: Extension 'ms-toolsai.~upyter' CANNOT use API proposal: notebookVariableProvider.
+Its package.~son#enabledApiProposals-property declares:  but NOT notebookVariableProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.~upyter
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:141:57957)
+	at set variableProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:153:225474)
+	at r.create (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:85881)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99852
+	at Array.forEach (<anonymous>)
+	at mb.addImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99825)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98811
+	at Array.forEach (<anonymous>)
+	at mb.batchAdd (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98781)
+	at mb.createNotebookControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97603)
+	at mb.loadControllersImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97063)
+	at mb.loadControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:96713)
+	at mb.<anonymous> (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:95593)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:881)
+	at n.value (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:295:19835)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:950)
+	at xb.buildDummyEnvironment (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:144069)]
+15:25:12.659 [warn] Failed to attach variable provider [Error: Extension 'ms-toolsai.~upyter' CANNOT use API proposal: notebookVariableProvider.
+Its package.~son#enabledApiProposals-property declares:  but NOT notebookVariableProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.~upyter
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:141:57957)
+	at set variableProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:153:225474)
+	at r.create (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:85881)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99852
+	at Array.forEach (<anonymous>)
+	at mb.addImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99825)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98811
+	at Array.forEach (<anonymous>)
+	at mb.batchAdd (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98781)
+	at mb.createNotebookControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97603)
+	at mb.loadControllersImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97063)
+	at mb.loadControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:96713)
+	at mb.<anonymous> (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:95593)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:881)
+	at n.value (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:295:19835)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:950)
+	at xb.buildDummyEnvironment (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:144069)]
+15:25:12.659 [warn] Failed to attach variable provider [Error: Extension 'ms-toolsai.~upyter' CANNOT use API proposal: notebookVariableProvider.
+Its package.~son#enabledApiProposals-property declares:  but NOT notebookVariableProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.~upyter
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:141:57957)
+	at set variableProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:153:225474)
+	at r.create (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:85881)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99852
+	at Array.forEach (<anonymous>)
+	at mb.addImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99825)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98811
+	at Array.forEach (<anonymous>)
+	at mb.batchAdd (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98781)
+	at mb.createNotebookControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97603)
+	at mb.loadControllersImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97063)
+	at mb.loadControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:96713)
+	at mb.<anonymous> (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:95593)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:881)
+	at n.value (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:295:19835)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:950)
+	at xb.buildDummyEnvironment (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:144069)]
+15:25:12.660 [warn] Failed to attach variable provider [Error: Extension 'ms-toolsai.~upyter' CANNOT use API proposal: notebookVariableProvider.
+Its package.~son#enabledApiProposals-property declares:  but NOT notebookVariableProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.~upyter
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:141:57957)
+	at set variableProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:153:225474)
+	at r.create (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:85881)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99852
+	at Array.forEach (<anonymous>)
+	at mb.addImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99825)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98811
+	at Array.forEach (<anonymous>)
+	at mb.batchAdd (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98781)
+	at mb.createNotebookControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97603)
+	at mb.loadControllersImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97063)
+	at mb.loadControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:96713)
+	at mb.<anonymous> (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:95593)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:881)
+	at n.value (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:295:19835)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:950)
+	at xb.buildDummyEnvironment (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:144069)]
+15:25:12.661 [warn] Failed to attach variable provider [Error: Extension 'ms-toolsai.~upyter' CANNOT use API proposal: notebookVariableProvider.
+Its package.~son#enabledApiProposals-property declares:  but NOT notebookVariableProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.~upyter
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:141:57957)
+	at set variableProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:153:225474)
+	at r.create (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:85881)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99852
+	at Array.forEach (<anonymous>)
+	at mb.addImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99825)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98811
+	at Array.forEach (<anonymous>)
+	at mb.batchAdd (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98781)
+	at mb.createNotebookControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97603)
+	at mb.loadControllersImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97063)
+	at mb.loadControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:96713)
+	at mb.<anonymous> (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:95593)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:881)
+	at n.value (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:295:19835)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:950)
+	at xb.buildDummyEnvironment (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:144069)]
+15:25:12.662 [warn] Failed to attach variable provider [Error: Extension 'ms-toolsai.~upyter' CANNOT use API proposal: notebookVariableProvider.
+Its package.~son#enabledApiProposals-property declares:  but NOT notebookVariableProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.~upyter
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:141:57957)
+	at set variableProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:153:225474)
+	at r.create (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:85881)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99852
+	at Array.forEach (<anonymous>)
+	at mb.addImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99825)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98811
+	at Array.forEach (<anonymous>)
+	at mb.batchAdd (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98781)
+	at mb.createNotebookControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97603)
+	at mb.loadControllersImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97063)
+	at mb.loadControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:96713)
+	at mb.<anonymous> (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:95593)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:881)
+	at n.value (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:295:19835)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:950)
+	at xb.buildDummyEnvironment (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:144069)]
+15:25:12.663 [warn] Failed to attach variable provider [Error: Extension 'ms-toolsai.~upyter' CANNOT use API proposal: notebookVariableProvider.
+Its package.~son#enabledApiProposals-property declares:  but NOT notebookVariableProvider.
+ The missing proposal MUST be added and you must start in extension development mode or use the following command line switch: --enable-proposed-api ms-toolsai.~upyter
+	at P (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:141:57957)
+	at set variableProvider (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:153:225474)
+	at r.create (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:85881)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99852
+	at Array.forEach (<anonymous>)
+	at mb.addImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:99825)
+	at /home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98811
+	at Array.forEach (<anonymous>)
+	at mb.batchAdd (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:98781)
+	at mb.createNotebookControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97603)
+	at mb.loadControllersImpl (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:97063)
+	at mb.loadControllers (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:96713)
+	at mb.<anonymous> (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:95593)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:881)
+	at n.value (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:295:19835)
+	at l.y (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:664)
+	at l.z (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:734)
+	at l.fire (/usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.~s:82:950)
+	at xb.buildDummyEnvironment (/home/~/.vscode-oss/extensions/ms-toolsai.~upyter-2024.5.0-universal/dist/extension.node.~s:314:144069)]

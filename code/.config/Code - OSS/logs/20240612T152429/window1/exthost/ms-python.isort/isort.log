@@ -1,0 +1,310 @@
+2024-06-12 15:25:13.049 [info] Name: isort
+2024-06-12 15:25:13.049 [info] Module: isort
+2024-06-12 15:25:13.049 [info] Python extension loading
+2024-06-12 15:25:13.049 [info] Waiting for interpreter from python extension.
+2024-06-12 15:25:13.049 [info] No interpreter found from setting isort.interpreter
+2024-06-12 15:25:13.049 [info] Getting interpreter from ms-python.python extension for workspace /home/j/dsc/prj/logistic regression sonar
+2024-06-12 15:25:13.049 [info] Python extension loaded
+2024-06-12 15:25:13.049 [info] Interpreter from ms-python.python extension for /home/j/dsc/prj/logistic regression sonar: /bin/python
+2024-06-12 15:25:13.049 [info] No interpreter found from setting isort.interpreter
+2024-06-12 15:25:13.049 [info] Getting interpreter from ms-python.python extension for workspace /home/j/dsc/prj/logistic regression sonar
+2024-06-12 15:25:13.049 [info] Interpreter from ms-python.python extension for /home/j/dsc/prj/logistic regression sonar: /bin/python
+2024-06-12 15:25:13.049 [info] Server run command: /bin/python /home/j/.vscode-oss/extensions/ms-python.isort-2023.10.1-universal/bundled/tool/lsp_server.py
+2024-06-12 15:25:13.049 [info] Server: Start requested.
+2024-06-12 15:25:13.875 [info] CWD Server: /home/j/dsc/prj/logistic regression sonar
+2024-06-12 15:25:13.875 [info] sys.path used to run Server:
+   /home/j/.vscode-oss/extensions/ms-python.isort-2023.10.1-universal/bundled/libs
+   /home/j/.vscode-oss/extensions/ms-python.isort-2023.10.1-universal/bundled/tool
+   /usr/lib/python312.zip
+   /usr/lib/python3.12
+   /usr/lib/python3.12/lib-dynload
+   /home/j/.local/lib/python3.12/site-packages
+   /usr/lib/python3.12/site-packages
+2024-06-12 15:25:13.876 [info] Settings used to run Server:
+[
+    {
+        "check": false,
+        "cwd": "/home/j/dsc/prj/logistic regression sonar",
+        "workspace": "file:///home/j/dsc/prj/logistic%20regression%20sonar",
+        "args": [],
+        "path": [],
+        "severity": {
+            "W": "Warning",
+            "E": "Hint"
+        },
+        "interpreter": [
+            "/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2024-06-12 15:25:13.876 [info] Global settings:
+{
+    "check": false,
+    "cwd": "/home/j",
+    "workspace": "/home/j",
+    "args": [],
+    "path": [],
+    "severity": {
+        "W": "Warning",
+        "E": "Hint"
+    },
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2024-06-12 15:25:13.878 [info] /bin/python -m isort --version-number
+2024-06-12 15:25:13.878 [info] CWD Linter: /home/j/dsc/prj/logistic regression sonar
+2024-06-12 15:25:13.881 [info] Version info for isort running for /home/j/dsc/prj/logistic regression sonar:
+5.11.5
+
+2024-06-12 15:25:13.881 [info] SUPPORTED isort>=5.10.1
+FOUND isort==5.11.5
+
+2024-06-12 15:25:13.907 [info] [Trace - 3:25:13 PM] Sending request 'textDocument/codeAction - (1)'.
+2024-06-12 15:25:13.910 [info] [Trace - 3:25:13 PM] Sending request 'textDocument/codeAction - (2)'.
+2024-06-12 15:25:13.911 [info] [Trace - 3:25:13 PM] Sending request 'textDocument/codeAction - (3)'.
+2024-06-12 15:25:13.913 [info] [Trace - 3:25:13 PM] Sending request 'textDocument/codeAction - (4)'.
+2024-06-12 15:25:13.914 [info] [Trace - 3:25:13 PM] Sending request 'textDocument/codeAction - (5)'.
+2024-06-12 15:25:13.916 [info] [Trace - 3:25:13 PM] Sending request 'textDocument/codeAction - (6)'.
+2024-06-12 15:25:13.919 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.920 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.921 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.922 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.924 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.924 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.925 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.926 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.927 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.927 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.927 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.927 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.928 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.928 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.928 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.933 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.933 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.934 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.934 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.935 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.936 [info] [Trace - 3:25:13 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:25:13.937 [info] [Trace - 3:25:13 PM] Received response 'textDocument/codeAction - (1)' in 30ms.
+2024-06-12 15:25:13.938 [info] [Trace - 3:25:13 PM] Received response 'textDocument/codeAction - (2)' in 28ms.
+2024-06-12 15:25:13.938 [info] [Trace - 3:25:13 PM] Received response 'textDocument/codeAction - (3)' in 27ms.
+2024-06-12 15:25:13.938 [info] [Trace - 3:25:13 PM] Received response 'textDocument/codeAction - (4)' in 25ms.
+2024-06-12 15:25:13.939 [info] [Trace - 3:25:13 PM] Received response 'textDocument/codeAction - (5)' in 25ms.
+2024-06-12 15:25:13.939 [info] [Trace - 3:25:13 PM] Received response 'textDocument/codeAction - (6)' in 24ms.
+2024-06-12 15:25:18.539 [info] [Trace - 3:25:18 PM] Sending request 'textDocument/codeAction - (7)'.
+2024-06-12 15:25:18.542 [info] [Trace - 3:25:18 PM] Received response 'textDocument/codeAction - (7)' in 3ms.
+2024-06-12 15:25:18.545 [info] [Trace - 3:25:18 PM] Sending request 'textDocument/codeAction - (8)'.
+2024-06-12 15:25:18.546 [info] [Trace - 3:25:18 PM] Received response 'textDocument/codeAction - (8)' in 1ms.
+2024-06-12 15:25:18.707 [info] [Trace - 3:25:18 PM] Sending request 'textDocument/codeAction - (9)'.
+2024-06-12 15:25:18.708 [info] [Trace - 3:25:18 PM] Received response 'textDocument/codeAction - (9)' in 1ms.
+2024-06-12 15:25:18.835 [info] [Trace - 3:25:18 PM] Sending request 'textDocument/codeAction - (10)'.
+2024-06-12 15:25:18.836 [info] [Trace - 3:25:18 PM] Received response 'textDocument/codeAction - (10)' in 1ms.
+2024-06-12 15:25:26.792 [info] [Trace - 3:25:26 PM] Sending request 'textDocument/codeAction - (11)'.
+2024-06-12 15:25:26.794 [info] [Trace - 3:25:26 PM] Received response 'textDocument/codeAction - (11)' in 2ms.
+2024-06-12 15:25:28.923 [info] [Trace - 3:25:28 PM] Sending request 'textDocument/codeAction - (12)'.
+2024-06-12 15:25:28.929 [info] [Trace - 3:25:28 PM] Received response 'textDocument/codeAction - (12)' in 6ms.
+2024-06-12 15:25:29.942 [info] [Trace - 3:25:29 PM] Sending request 'textDocument/codeAction - (13)'.
+2024-06-12 15:25:29.954 [info] [Trace - 3:25:29 PM] Received response 'textDocument/codeAction - (13)' in 12ms.
+2024-06-12 15:25:30.813 [info] [Trace - 3:25:30 PM] Sending request 'textDocument/codeAction - (14)'.
+2024-06-12 15:25:30.815 [info] [Trace - 3:25:30 PM] Received response 'textDocument/codeAction - (14)' in 2ms.
+2024-06-12 15:25:33.684 [info] [Trace - 3:25:33 PM] Sending request 'textDocument/codeAction - (15)'.
+2024-06-12 15:25:33.687 [info] [Trace - 3:25:33 PM] Received response 'textDocument/codeAction - (15)' in 2ms.
+2024-06-12 15:25:34.980 [info] [Trace - 3:25:34 PM] Sending request 'textDocument/codeAction - (16)'.
+2024-06-12 15:25:34.982 [info] [Trace - 3:25:34 PM] Received response 'textDocument/codeAction - (16)' in 2ms.
+2024-06-12 15:25:35.475 [info] [Trace - 3:25:35 PM] Sending request 'textDocument/codeAction - (17)'.
+2024-06-12 15:25:35.486 [info] [Trace - 3:25:35 PM] Received response 'textDocument/codeAction - (17)' in 11ms.
+2024-06-12 15:25:37.755 [info] [Trace - 3:25:37 PM] Sending request 'textDocument/codeAction - (18)'.
+2024-06-12 15:25:37.757 [info] [Trace - 3:25:37 PM] Received response 'textDocument/codeAction - (18)' in 2ms.
+2024-06-12 15:25:38.499 [info] [Trace - 3:25:38 PM] Sending request 'textDocument/codeAction - (19)'.
+2024-06-12 15:25:38.501 [info] [Trace - 3:25:38 PM] Received response 'textDocument/codeAction - (19)' in 2ms.
+2024-06-12 15:25:40.181 [info] [Trace - 3:25:40 PM] Sending request 'textDocument/codeAction - (20)'.
+2024-06-12 15:25:40.183 [info] [Trace - 3:25:40 PM] Received response 'textDocument/codeAction - (20)' in 1ms.
+2024-06-12 15:25:41.292 [info] [Trace - 3:25:41 PM] Sending request 'textDocument/codeAction - (21)'.
+2024-06-12 15:25:41.295 [info] [Trace - 3:25:41 PM] Received response 'textDocument/codeAction - (21)' in 3ms.
+2024-06-12 15:25:41.592 [info] [Trace - 3:25:41 PM] Sending request 'textDocument/codeAction - (22)'.
+2024-06-12 15:25:41.594 [info] [Trace - 3:25:41 PM] Received response 'textDocument/codeAction - (22)' in 2ms.
+2024-06-12 15:25:41.995 [info] [Trace - 3:25:41 PM] Sending request 'textDocument/codeAction - (23)'.
+2024-06-12 15:25:42.000 [info] [Trace - 3:25:42 PM] Received response 'textDocument/codeAction - (23)' in 5ms.
+2024-06-12 15:25:43.036 [info] [Trace - 3:25:43 PM] Sending request 'textDocument/codeAction - (24)'.
+2024-06-12 15:25:43.038 [info] [Trace - 3:25:43 PM] Received response 'textDocument/codeAction - (24)' in 2ms.
+2024-06-12 15:25:48.814 [info] [Trace - 3:25:48 PM] Sending request 'textDocument/codeAction - (25)'.
+2024-06-12 15:25:48.817 [info] [Trace - 3:25:48 PM] Received response 'textDocument/codeAction - (25)' in 3ms.
+2024-06-12 15:25:49.701 [info] [Trace - 3:25:49 PM] Sending request 'textDocument/codeAction - (26)'.
+2024-06-12 15:25:49.704 [info] [Trace - 3:25:49 PM] Received response 'textDocument/codeAction - (26)' in 3ms.
+2024-06-12 15:25:52.932 [info] [Trace - 3:25:52 PM] Sending request 'textDocument/codeAction - (27)'.
+2024-06-12 15:25:52.934 [info] [Trace - 3:25:52 PM] Received response 'textDocument/codeAction - (27)' in 2ms.
+2024-06-12 15:25:54.812 [info] [Trace - 3:25:54 PM] Sending request 'textDocument/codeAction - (28)'.
+2024-06-12 15:25:54.814 [info] [Trace - 3:25:54 PM] Received response 'textDocument/codeAction - (28)' in 2ms.
+2024-06-12 15:25:54.904 [info] [Trace - 3:25:54 PM] Sending request 'textDocument/codeAction - (29)'.
+2024-06-12 15:25:54.906 [info] [Trace - 3:25:54 PM] Received response 'textDocument/codeAction - (29)' in 2ms.
+2024-06-12 15:25:57.585 [info] [Trace - 3:25:57 PM] Sending request 'textDocument/codeAction - (30)'.
+2024-06-12 15:25:57.586 [info] [Trace - 3:25:57 PM] Received response 'textDocument/codeAction - (30)' in 1ms.
+2024-06-12 15:25:57.786 [info] [Trace - 3:25:57 PM] Sending request 'textDocument/codeAction - (31)'.
+2024-06-12 15:25:57.793 [info] [Trace - 3:25:57 PM] Received response 'textDocument/codeAction - (31)' in 7ms.
+2024-06-12 15:25:58.743 [info] [Trace - 3:25:58 PM] Sending request 'textDocument/codeAction - (32)'.
+2024-06-12 15:25:58.745 [info] [Trace - 3:25:58 PM] Received response 'textDocument/codeAction - (32)' in 2ms.
+2024-06-12 15:25:58.914 [info] [Trace - 3:25:58 PM] Sending request 'textDocument/codeAction - (33)'.
+2024-06-12 15:25:58.916 [info] [Trace - 3:25:58 PM] Received response 'textDocument/codeAction - (33)' in 2ms.
+2024-06-12 15:25:58.994 [info] [Trace - 3:25:58 PM] Sending request 'textDocument/codeAction - (34)'.
+2024-06-12 15:25:58.996 [info] [Trace - 3:25:58 PM] Received response 'textDocument/codeAction - (34)' in 2ms.
+2024-06-12 15:25:59.070 [info] [Trace - 3:25:59 PM] Sending request 'textDocument/codeAction - (35)'.
+2024-06-12 15:25:59.072 [info] [Trace - 3:25:59 PM] Received response 'textDocument/codeAction - (35)' in 2ms.
+2024-06-12 15:26:02.001 [info] [Trace - 3:26:02 PM] Sending request 'textDocument/codeAction - (36)'.
+2024-06-12 15:26:02.003 [info] [Trace - 3:26:02 PM] Received response 'textDocument/codeAction - (36)' in 2ms.
+2024-06-12 15:26:03.829 [info] [Trace - 3:26:03 PM] Sending request 'textDocument/codeAction - (37)'.
+2024-06-12 15:26:03.831 [info] [Trace - 3:26:03 PM] Received response 'textDocument/codeAction - (37)' in 2ms.
+2024-06-12 15:26:04.458 [info] [Trace - 3:26:04 PM] Sending request 'textDocument/codeAction - (38)'.
+2024-06-12 15:26:04.463 [info] [Trace - 3:26:04 PM] Received response 'textDocument/codeAction - (38)' in 5ms.
+2024-06-12 15:26:04.522 [info] [Trace - 3:26:04 PM] Sending request 'textDocument/codeAction - (39)'.
+2024-06-12 15:26:04.523 [info] [Trace - 3:26:04 PM] Received response 'textDocument/codeAction - (39)' in 1ms.
+2024-06-12 15:26:04.670 [info] [Trace - 3:26:04 PM] Sending request 'textDocument/codeAction - (40)'.
+2024-06-12 15:26:04.672 [info] [Trace - 3:26:04 PM] Received response 'textDocument/codeAction - (40)' in 2ms.
+2024-06-12 15:26:04.817 [info] [Trace - 3:26:04 PM] Sending request 'textDocument/codeAction - (41)'.
+2024-06-12 15:26:04.819 [info] [Trace - 3:26:04 PM] Received response 'textDocument/codeAction - (41)' in 2ms.
+2024-06-12 15:26:04.995 [info] [Trace - 3:26:04 PM] Sending request 'textDocument/codeAction - (42)'.
+2024-06-12 15:26:04.997 [info] [Trace - 3:26:04 PM] Received response 'textDocument/codeAction - (42)' in 2ms.
+2024-06-12 15:26:05.369 [info] [Trace - 3:26:05 PM] Sending request 'textDocument/codeAction - (43)'.
+2024-06-12 15:26:05.371 [info] [Trace - 3:26:05 PM] Received response 'textDocument/codeAction - (43)' in 2ms.
+2024-06-12 15:26:06.621 [info] [Trace - 3:26:06 PM] Sending request 'textDocument/codeAction - (44)'.
+2024-06-12 15:26:06.623 [info] [Trace - 3:26:06 PM] Received response 'textDocument/codeAction - (44)' in 2ms.
+2024-06-12 15:26:06.769 [info] [Trace - 3:26:06 PM] Sending request 'textDocument/codeAction - (45)'.
+2024-06-12 15:26:06.771 [info] [Trace - 3:26:06 PM] Received response 'textDocument/codeAction - (45)' in 2ms.
+2024-06-12 15:26:06.874 [info] [Trace - 3:26:06 PM] Sending request 'textDocument/codeAction - (46)'.
+2024-06-12 15:26:06.876 [info] [Trace - 3:26:06 PM] Received response 'textDocument/codeAction - (46)' in 3ms.
+2024-06-12 15:26:06.935 [info] [Trace - 3:26:06 PM] Sending request 'textDocument/codeAction - (47)'.
+2024-06-12 15:26:06.937 [info] [Trace - 3:26:06 PM] Received response 'textDocument/codeAction - (47)' in 2ms.
+2024-06-12 15:26:07.108 [info] [Trace - 3:26:07 PM] Sending request 'textDocument/codeAction - (48)'.
+2024-06-12 15:26:07.111 [info] [Trace - 3:26:07 PM] Received response 'textDocument/codeAction - (48)' in 3ms.
+2024-06-12 15:26:07.186 [info] [Trace - 3:26:07 PM] Sending request 'textDocument/codeAction - (49)'.
+2024-06-12 15:26:07.189 [info] [Trace - 3:26:07 PM] Received response 'textDocument/codeAction - (49)' in 2ms.
+2024-06-12 15:26:07.264 [info] [Trace - 3:26:07 PM] Sending request 'textDocument/codeAction - (50)'.
+2024-06-12 15:26:07.266 [info] [Trace - 3:26:07 PM] Received response 'textDocument/codeAction - (50)' in 2ms.
+2024-06-12 15:26:07.425 [info] [Trace - 3:26:07 PM] Sending request 'textDocument/codeAction - (51)'.
+2024-06-12 15:26:07.427 [info] [Trace - 3:26:07 PM] Received response 'textDocument/codeAction - (51)' in 2ms.
+2024-06-12 15:26:07.675 [info] [Trace - 3:26:07 PM] Sending request 'textDocument/codeAction - (52)'.
+2024-06-12 15:26:07.677 [info] [Trace - 3:26:07 PM] Received response 'textDocument/codeAction - (52)' in 2ms.
+2024-06-12 15:26:08.921 [info] [Trace - 3:26:08 PM] Sending request 'textDocument/codeAction - (53)'.
+2024-06-12 15:26:08.925 [info] [Trace - 3:26:08 PM] Received response 'textDocument/codeAction - (53)' in 5ms.
+2024-06-12 15:26:09.086 [info] [Trace - 3:26:09 PM] Sending request 'textDocument/codeAction - (54)'.
+2024-06-12 15:26:09.087 [info] [Trace - 3:26:09 PM] Received response 'textDocument/codeAction - (54)' in 1ms.
+2024-06-12 15:26:09.232 [info] [Trace - 3:26:09 PM] Sending request 'textDocument/codeAction - (55)'.
+2024-06-12 15:26:09.234 [info] [Trace - 3:26:09 PM] Received response 'textDocument/codeAction - (55)' in 2ms.
+2024-06-12 15:26:09.386 [info] [Trace - 3:26:09 PM] Sending request 'textDocument/codeAction - (56)'.
+2024-06-12 15:26:09.389 [info] [Trace - 3:26:09 PM] Received response 'textDocument/codeAction - (56)' in 3ms.
+2024-06-12 15:26:09.536 [info] [Trace - 3:26:09 PM] Sending request 'textDocument/codeAction - (57)'.
+2024-06-12 15:26:09.538 [info] [Trace - 3:26:09 PM] Received response 'textDocument/codeAction - (57)' in 2ms.
+2024-06-12 15:26:09.693 [info] [Trace - 3:26:09 PM] Sending request 'textDocument/codeAction - (58)'.
+2024-06-12 15:26:09.695 [info] [Trace - 3:26:09 PM] Received response 'textDocument/codeAction - (58)' in 2ms.
+2024-06-12 15:26:09.848 [info] [Trace - 3:26:09 PM] Sending request 'textDocument/codeAction - (59)'.
+2024-06-12 15:26:09.849 [info] [Trace - 3:26:09 PM] Received response 'textDocument/codeAction - (59)' in 1ms.
+2024-06-12 15:26:09.966 [info] [Trace - 3:26:09 PM] Sending request 'textDocument/codeAction - (60)'.
+2024-06-12 15:26:09.967 [info] [Trace - 3:26:09 PM] Received response 'textDocument/codeAction - (60)' in 1ms.
+2024-06-12 15:26:10.306 [info] [Trace - 3:26:10 PM] Sending request 'textDocument/codeAction - (61)'.
+2024-06-12 15:26:10.308 [info] [Trace - 3:26:10 PM] Received response 'textDocument/codeAction - (61)' in 2ms.
+2024-06-12 15:26:10.950 [info] [Trace - 3:26:10 PM] Sending request 'textDocument/codeAction - (62)'.
+2024-06-12 15:26:10.952 [info] [Trace - 3:26:10 PM] Received response 'textDocument/codeAction - (62)' in 2ms.
+2024-06-12 15:26:11.233 [info] [Trace - 3:26:11 PM] Sending request 'textDocument/codeAction - (63)'.
+2024-06-12 15:26:11.234 [info] [Trace - 3:26:11 PM] Received response 'textDocument/codeAction - (63)' in 1ms.
+2024-06-12 15:26:11.244 [info] [Trace - 3:26:11 PM] Sending request 'textDocument/codeAction - (64)'.
+2024-06-12 15:26:11.246 [info] [Trace - 3:26:11 PM] Received response 'textDocument/codeAction - (64)' in 2ms.
+2024-06-12 15:26:11.551 [info] [Trace - 3:26:11 PM] Sending request 'textDocument/codeAction - (65)'.
+2024-06-12 15:26:11.553 [info] [Trace - 3:26:11 PM] Received response 'textDocument/codeAction - (65)' in 2ms.
+2024-06-12 15:26:11.693 [info] [Trace - 3:26:11 PM] Sending request 'textDocument/codeAction - (66)'.
+2024-06-12 15:26:11.694 [info] [Trace - 3:26:11 PM] Received response 'textDocument/codeAction - (66)' in 1ms.
+2024-06-12 15:26:11.853 [info] [Trace - 3:26:11 PM] Sending request 'textDocument/codeAction - (67)'.
+2024-06-12 15:26:11.855 [info] [Trace - 3:26:11 PM] Received response 'textDocument/codeAction - (67)' in 2ms.
+2024-06-12 15:26:30.699 [info] [Trace - 3:26:30 PM] Sending notification 'textDocument/didClose'.
+2024-06-12 15:26:30.703 [info] [Trace - 3:26:30 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:26:30.985 [info] [Trace - 3:26:30 PM] Sending request 'textDocument/codeAction - (68)'.
+2024-06-12 15:26:30.989 [info] [Trace - 3:26:30 PM] Received response 'textDocument/codeAction - (68)' in 4ms.
+2024-06-12 15:26:31.784 [info] [Trace - 3:26:31 PM] Sending notification 'textDocument/didClose'.
+2024-06-12 15:26:31.786 [info] [Trace - 3:26:31 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:26:32.052 [info] [Trace - 3:26:32 PM] Sending request 'textDocument/codeAction - (69)'.
+2024-06-12 15:26:32.055 [info] [Trace - 3:26:32 PM] Received response 'textDocument/codeAction - (69)' in 3ms.
+2024-06-12 15:26:32.369 [info] [Trace - 3:26:32 PM] Sending notification 'textDocument/didClose'.
+2024-06-12 15:26:32.372 [info] [Trace - 3:26:32 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:26:32.663 [info] [Trace - 3:26:32 PM] Sending request 'textDocument/codeAction - (70)'.
+2024-06-12 15:26:32.667 [info] [Trace - 3:26:32 PM] Received response 'textDocument/codeAction - (70)' in 4ms.
+2024-06-12 15:26:33.095 [info] [Trace - 3:26:33 PM] Sending notification 'textDocument/didClose'.
+2024-06-12 15:26:33.098 [info] [Trace - 3:26:33 PM] Received notification 'textDocument/publishDiagnostics'.
+2024-06-12 15:26:35.425 [info] [Trace - 3:26:35 PM] Sending request 'textDocument/codeAction - (71)'.
+2024-06-12 15:26:35.427 [info] [Trace - 3:26:35 PM] Received response 'textDocument/codeAction - (71)' in 2ms.
+2024-06-12 15:26:35.577 [info] [Trace - 3:26:35 PM] Sending request 'textDocument/codeAction - (72)'.
+2024-06-12 15:26:35.578 [info] [Trace - 3:26:35 PM] Received response 'textDocument/codeAction - (72)' in 1ms.
+2024-06-12 15:26:35.876 [info] [Trace - 3:26:35 PM] Sending request 'textDocument/codeAction - (73)'.
+2024-06-12 15:26:35.878 [info] [Trace - 3:26:35 PM] Received response 'textDocument/codeAction - (73)' in 2ms.
+2024-06-12 15:26:36.028 [info] [Trace - 3:26:36 PM] Sending request 'textDocument/codeAction - (74)'.
+2024-06-12 15:26:36.029 [info] [Trace - 3:26:36 PM] Received response 'textDocument/codeAction - (74)' in 1ms.
+2024-06-12 15:26:36.182 [info] [Trace - 3:26:36 PM] Sending request 'textDocument/codeAction - (75)'.
+2024-06-12 15:26:36.184 [info] [Trace - 3:26:36 PM] Received response 'textDocument/codeAction - (75)' in 2ms.
+2024-06-12 15:26:36.340 [info] [Trace - 3:26:36 PM] Sending request 'textDocument/codeAction - (76)'.
+2024-06-12 15:26:36.342 [info] [Trace - 3:26:36 PM] Received response 'textDocument/codeAction - (76)' in 2ms.
+2024-06-12 15:26:36.495 [info] [Trace - 3:26:36 PM] Sending request 'textDocument/codeAction - (77)'.
+2024-06-12 15:26:36.496 [info] [Trace - 3:26:36 PM] Received response 'textDocument/codeAction - (77)' in 1ms.
+2024-06-12 15:26:36.660 [info] [Trace - 3:26:36 PM] Sending request 'textDocument/codeAction - (78)'.
+2024-06-12 15:26:36.662 [info] [Trace - 3:26:36 PM] Received response 'textDocument/codeAction - (78)' in 1ms.
+2024-06-12 15:26:36.976 [info] [Trace - 3:26:36 PM] Sending request 'textDocument/codeAction - (79)'.
+2024-06-12 15:26:36.980 [info] [Trace - 3:26:36 PM] Received response 'textDocument/codeAction - (79)' in 4ms.
+2024-06-12 15:26:37.110 [info] [Trace - 3:26:37 PM] Sending request 'textDocument/codeAction - (80)'.
+2024-06-12 15:26:37.112 [info] [Trace - 3:26:37 PM] Received response 'textDocument/codeAction - (80)' in 2ms.
+2024-06-12 15:26:37.228 [info] [Trace - 3:26:37 PM] Sending request 'textDocument/codeAction - (81)'.
+2024-06-12 15:26:37.230 [info] [Trace - 3:26:37 PM] Received response 'textDocument/codeAction - (81)' in 3ms.
+2024-06-12 15:26:37.271 [info] [Trace - 3:26:37 PM] Sending request 'textDocument/codeAction - (82)'.
+2024-06-12 15:26:37.274 [info] [Trace - 3:26:37 PM] Received response 'textDocument/codeAction - (82)' in 3ms.
+2024-06-12 15:26:37.401 [info] [Trace - 3:26:37 PM] Sending request 'textDocument/codeAction - (83)'.
+2024-06-12 15:26:37.402 [info] [Trace - 3:26:37 PM] Received response 'textDocument/codeAction - (83)' in 1ms.
+2024-06-12 15:26:37.519 [info] [Trace - 3:26:37 PM] Sending request 'textDocument/codeAction - (84)'.
+2024-06-12 15:26:37.520 [info] [Trace - 3:26:37 PM] Received response 'textDocument/codeAction - (84)' in 1ms.
+2024-06-12 15:26:37.551 [info] [Trace - 3:26:37 PM] Sending request 'textDocument/codeAction - (85)'.
+2024-06-12 15:26:37.553 [info] [Trace - 3:26:37 PM] Received response 'textDocument/codeAction - (85)' in 2ms.
+2024-06-12 15:26:37.716 [info] [Trace - 3:26:37 PM] Sending request 'textDocument/codeAction - (86)'.
+2024-06-12 15:26:37.718 [info] [Trace - 3:26:37 PM] Received response 'textDocument/codeAction - (86)' in 2ms.
+2024-06-12 15:26:37.965 [info] [Trace - 3:26:37 PM] Sending request 'textDocument/codeAction - (87)'.
+2024-06-12 15:26:37.967 [info] [Trace - 3:26:37 PM] Received response 'textDocument/codeAction - (87)' in 2ms.
+2024-06-12 15:26:38.754 [info] [Trace - 3:26:38 PM] Sending request 'textDocument/codeAction - (88)'.
+2024-06-12 15:26:38.756 [info] [Trace - 3:26:38 PM] Received response 'textDocument/codeAction - (88)' in 2ms.
+2024-06-12 15:26:38.785 [info] [Trace - 3:26:38 PM] Sending request 'textDocument/codeAction - (89)'.
+2024-06-12 15:26:38.787 [info] [Trace - 3:26:38 PM] Received response 'textDocument/codeAction - (89)' in 2ms.
+2024-06-12 15:26:38.801 [info] [Trace - 3:26:38 PM] Sending request 'textDocument/codeAction - (90)'.
+2024-06-12 15:26:38.803 [info] [Trace - 3:26:38 PM] Received response 'textDocument/codeAction - (90)' in 2ms.
+2024-06-12 15:26:38.828 [info] [Trace - 3:26:38 PM] Sending request 'textDocument/codeAction - (91)'.
+2024-06-12 15:26:38.830 [info] [Trace - 3:26:38 PM] Received response 'textDocument/codeAction - (91)' in 2ms.
+2024-06-12 15:26:38.844 [info] [Trace - 3:26:38 PM] Sending request 'textDocument/codeAction - (92)'.
+2024-06-12 15:26:38.846 [info] [Trace - 3:26:38 PM] Received response 'textDocument/codeAction - (92)' in 2ms.
+2024-06-12 15:26:38.870 [info] [Trace - 3:26:38 PM] Sending request 'textDocument/codeAction - (93)'.
+2024-06-12 15:26:38.873 [info] [Trace - 3:26:38 PM] Received response 'textDocument/codeAction - (93)' in 3ms.
+2024-06-12 15:26:38.886 [info] [Trace - 3:26:38 PM] Sending request 'textDocument/codeAction - (94)'.
+2024-06-12 15:26:38.888 [info] [Trace - 3:26:38 PM] Received response 'textDocument/codeAction - (94)' in 2ms.
+2024-06-12 15:26:38.917 [info] [Trace - 3:26:38 PM] Sending request 'textDocument/codeAction - (95)'.
+2024-06-12 15:26:38.919 [info] [Trace - 3:26:38 PM] Received response 'textDocument/codeAction - (95)' in 2ms.
+2024-06-12 15:26:38.961 [info] [Trace - 3:26:38 PM] Sending request 'textDocument/codeAction - (96)'.
+2024-06-12 15:26:38.963 [info] [Trace - 3:26:38 PM] Received response 'textDocument/codeAction - (96)' in 2ms.
+2024-06-12 15:26:38.977 [info] [Trace - 3:26:38 PM] Sending request 'textDocument/codeAction - (97)'.
+2024-06-12 15:26:38.979 [info] [Trace - 3:26:38 PM] Received response 'textDocument/codeAction - (97)' in 2ms.
+2024-06-12 15:26:39.014 [info] [Trace - 3:26:39 PM] Sending request 'textDocument/codeAction - (98)'.
+2024-06-12 15:26:39.015 [info] [Trace - 3:26:39 PM] Received response 'textDocument/codeAction - (98)' in 1ms.
+2024-06-12 15:26:50.808 [info] [Trace - 3:26:50 PM] Sending request 'textDocument/codeAction - (99)'.
+2024-06-12 15:26:50.809 [info] [Trace - 3:26:50 PM] Received response 'textDocument/codeAction - (99)' in 1ms.
+2024-06-12 15:26:50.859 [info] [Trace - 3:26:50 PM] Sending request 'textDocument/codeAction - (100)'.
+2024-06-12 15:26:50.862 [info] [Trace - 3:26:50 PM] Received response 'textDocument/codeAction - (100)' in 2ms.
+2024-06-12 15:26:50.884 [info] [Trace - 3:26:50 PM] Sending request 'textDocument/codeAction - (101)'.
+2024-06-12 15:26:50.885 [info] [Trace - 3:26:50 PM] Received response 'textDocument/codeAction - (101)' in 1ms.
+2024-06-12 15:26:51.460 [info] [Trace - 3:26:51 PM] Sending request 'textDocument/codeAction - (102)'.
+2024-06-12 15:26:51.461 [info] [Trace - 3:26:51 PM] Received response 'textDocument/codeAction - (102)' in 1ms.
+2024-06-12 15:26:51.542 [info] [Trace - 3:26:51 PM] Sending request 'textDocument/codeAction - (103)'.
+2024-06-12 15:26:51.543 [info] [Trace - 3:26:51 PM] Received response 'textDocument/codeAction - (103)' in 1ms.
+2024-06-12 15:26:51.597 [info] [Trace - 3:26:51 PM] Sending request 'textDocument/codeAction - (104)'.
+2024-06-12 15:26:51.599 [info] [Trace - 3:26:51 PM] Received response 'textDocument/codeAction - (104)' in 2ms.
+2024-06-12 15:26:52.014 [info] [Trace - 3:26:52 PM] Sending request 'textDocument/codeAction - (105)'.
+2024-06-12 15:26:52.017 [info] [Trace - 3:26:52 PM] Received response 'textDocument/codeAction - (105)' in 3ms.
+2024-06-12 15:26:52.056 [info] [Trace - 3:26:52 PM] Sending request 'textDocument/codeAction - (106)'.
+2024-06-12 15:26:52.059 [info] [Trace - 3:26:52 PM] Received response 'textDocument/codeAction - (106)' in 3ms.
+2024-06-12 15:26:58.688 [info] [Trace - 3:26:58 PM] Sending request 'shutdown - (107)'.
+2024-06-12 15:26:58.697 [info] [Trace - 3:26:58 PM] Received response 'shutdown - (107)' in 18ms.
+2024-06-12 15:26:58.697 [info] [Trace - 3:26:58 PM] Sending notification 'exit'.

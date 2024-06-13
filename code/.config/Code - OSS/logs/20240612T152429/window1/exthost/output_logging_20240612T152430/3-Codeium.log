@@ -1,0 +1,71 @@
+2024-06-12 15:24:31.421 [INFO]: No proxy settings found
+2024-06-12 15:24:34.714 [ERROR]: Failed to initialize Unleash: FetchError: Unleash Repository error: request to https://unleash.codeium.com/api/client/features failed, reason: getaddrinfo ENOTFOUND unleash.codeium.com
+2024-06-12 15:24:36.030 [INFO]: Creating manager directory: /tmp/52255c0d-77e4-4b92-9e40-bde325062209/codeium/manager
+2024-06-12 15:24:36.276 [INFO]: Using cached LS with valid crc32: /home/j/.vscode-oss/extensions/codeium.codeium-1.8.54-universal/dist/42fbd33713da99925455bf873cebc46d05a18a4d/language_server_linux_x64
+2024-06-12 15:24:36.282 [INFO]: Language server started
+2024-06-12 15:24:36.439 [INFO]: [Language Server (stderr)]:
+I0612 15:24:36.438032 72882 main.go:558] Starting language server manager with pid 72882
+I0612 15:24:36.438274 72882 main.go:110] Manager acquired its lock file /tmp/52255c0d-77e4-4b92-9e40-bde325062209/codeium/manager/locks/manager.lock
+2024-06-12 15:24:36.444 [INFO]: [Language Server (stderr)]:
+I0612 15:24:36.439235 72882 main.go:248] Waiting for random port file in /tmp/52255c0d-77e4-4b92-9e40-bde325062209/codeium/manager/child_random_port_1718185176438450903_5622819044063850350 to be created
+2024-06-12 15:24:36.582 [INFO]: [Language Server (stderr)]:
+I0612 15:24:36.581428 72896 main.go:552] Starting language server process with pid 72896
+I0612 15:24:36.581487 72896 server.go:156] Language server will attempt to listen on host 127.0.0.1
+2024-06-12 15:24:36.582 [INFO]: [Language Server (stderr)]:
+I0612 15:24:36.581691 72896 server.go:163] Language server listening on random port at 37343
+I0612 15:24:36.581760 72896 proxy.go:113] proxyplease.proxy> No proxy provided. Attempting to infer from system.
+I0612 15:24:36.581785 72896 proxy.go:113] proxyplease.proxy> No proxy could be determined. Assuming a direct connection.
+I0612 15:24:36.581808 72896 client.go:589] [DEBUG] GET https://server.codeium.com/exa.api_server_pb.ApiServerService/GetCompletions
+2024-06-12 15:24:37.517 [INFO]: [Language Server (stderr)]:
+I0612 15:24:37.516289 72896 unleash.go:90] Initializing Unleash
+2024-06-12 15:24:37.529 [INFO]: [Language Server (stderr)]:
+I0612 15:24:37.528677 72896 unleash.go:110] Successfully initialized Unleash
+E0612 15:24:37.528819 72896 unleash.go:60] Unleash error: Get "https://unleash.codeium.com/api/client/features": dial tcp: lookup unleash.codeium.com: no such host
+E0612 15:24:37.528906 72896 unleash.go:60] Unleash error: Post "https://unleash.codeium.com/api/client/register": dial tcp: lookup unleash.codeium.com: no such host
+2024-06-12 15:24:37.538 [INFO]: [Language Server (stderr)]:
+E0612 15:24:37.538113 72896 client_manager.go:270] Metadata is nil when trying to refresh user JWT
+2024-06-12 15:24:38.484 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.483441 72896 server.go:355] Successfully created API server client
+2024-06-12 15:24:38.518 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.517837 72896 server.go:364] Successfully initialized tokenizer
+2024-06-12 15:24:38.588 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.587766 72896 server.go:471] Local search is enabled, will index local files.
+I0612 15:24:38.587796 72896 server.go:475] Using 3 indexer workers
+I0612 15:24:38.587821 72896 search_provider.go:193] Using database at /home/j/.codeium/database/9c0694567290725d9dcba14ade58e297/2/MODEL_EMBED_6591
+2024-06-12 15:24:38.589 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.588692 72896 database.go:123] Bad db state detected: false
+2024-06-12 15:24:38.589 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.589475 72896 search_provider.go:207] Successfully created embedding search database in 1ms
+2024-06-12 15:24:38.590 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.589944 72896 search_provider.go:229] Successfully created and started indexer
+I0612 15:24:38.590007 72896 search_provider.go:255] Successfully created embedding search provider
+I0612 15:24:38.590023 72896 server.go:510] Successfully created exact search provider
+2024-06-12 15:24:38.594 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.594580 72896 server.go:540] Successfully created completion provider
+2024-06-12 15:24:38.595 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.594696 72896 server.go:589] Child process attempting to acquire lock file /tmp/52255c0d-77e4-4b92-9e40-bde325062209/codeium/manager/locks/child_lock_1718185176438526922_6024660574647852720
+I0612 15:24:38.594732 72896 server.go:597] Child process acquired lock file /tmp/52255c0d-77e4-4b92-9e40-bde325062209/codeium/manager/locks/child_lock_1718185176438526922_6024660574647852720
+2024-06-12 15:24:38.600 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.599095 72896 server.go:183] LSP listening on random port at 33123
+2024-06-12 15:24:38.600 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.599723 72896 web_server.go:239] Chat Web Server listening at ws://127.0.0.1:34519
+2024-06-12 15:24:38.653 [INFO]: [Language Server (stdout)]:
+33123
+2024-06-12 15:24:38.654 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.652397 72882 main.go:284] Language server manager found random server port 37343
+I0612 15:24:38.652451 72882 main.go:285] Language server manager found random lsp port 33123
+I0612 15:24:38.652482 72882 main.go:292] Language server manager attempting to connect to language server at 127.0.0.1:37343
+2024-06-12 15:24:38.682 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.681643 72882 main.go:163] Fixing language server port at 37343
+I0612 15:24:38.681663 72882 main.go:343] Language server manager successfully connected to new language server at 127.0.0.1:37343
+2024-06-12 15:24:38.702 [INFO]: Found language server running on port 37343
+2024-06-12 15:24:38.714 [INFO]: Downloaded binary: /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-12 15:24:38.730 [INFO]: [Language Server (stderr)]:
+I0612 15:24:38.730389 72896 rpcs_miscellaneous.go:118] Ripgrep available at /home/j/.codeium/bin/af6b6c543b224d348a8876f0c06245d9ea7929c5/ripgrep_linux_x64
+2024-06-12 15:24:39.115 [INFO]: [Language Server (stderr)]:
+I0612 15:24:39.114204 72896 rpcs_miscellaneous.go:312] University version is up to date.
+2024-06-12 15:25:07.797 [INFO]: Disposing language server process
+2024-06-12 15:25:07.798 [INFO]: Deleting manager directory: /tmp/52255c0d-77e4-4b92-9e40-bde325062209/codeium/manager
+2024-06-12 15:25:07.799 [INFO]: Successfully disposed language server
+2024-06-12 15:25:07.803 [INFO]: [Language Server (stderr)]:
+W0612 15:25:07.798115 72882 main.go:114] Language server manager got signal terminated, shutting down
